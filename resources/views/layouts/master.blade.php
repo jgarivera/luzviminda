@@ -7,6 +7,8 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Landing Page</title>
         <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/css/uikit.min.css" />
         @section('head')
         @show
     </head>
@@ -21,4 +23,7 @@
         @section('body')
         @show
     </body>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit-icons.min.js"></script>
 </html>
