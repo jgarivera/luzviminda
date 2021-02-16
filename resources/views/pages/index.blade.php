@@ -1,25 +1,7 @@
 @extends('layouts.master')
 
 @section('head')
-
-    <!-- Retrieve Mapbox library from CDN -->    
-    <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />
-    <script src='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js' defer></script>
-        
-    <!-- Load scripts -->
-    <script src="js/map.js" defer></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    <style>
-        body {
-            margin: 0;
-        }
-    
-        #map {
-            height: 600px;
-            width: 90vw;
-        }
-    </style>
 @endsection
 
 @section('body')
@@ -31,9 +13,6 @@
         </blockquote>
         
         <!-- https://help.twitter.com/en/using-twitter/how-to-embed-a-tweet -->
-        
-        <!-- Map container -->
-        <div id="map"></div>
 
         <a href="" class="dash">Go to DashBoard</h3>
         <a href=""class="login">Login</a>
