@@ -29,11 +29,18 @@ function setupMap(center) {
     });
 
     // Setup event hooks
-    map.on("load", initMap);
+    map.on("load", () => {
+       
+    });
 
     map.once("style.load", () => {
         styleMap(map);
         loadData(map);
+        initMap(map);
+    });
+
+    map.on("idle", () => {
+
     });
 
     // Add navigation control
@@ -41,8 +48,87 @@ function setupMap(center) {
     map.addControl(nav);
 }
 
-function initMap() {
-    console.log("Map loaded")
+const sourceLayerID = "MuniCities-5hms3a";
+var hoveredMunicityID = null;
+
+function initMap(map) {
+
+    // Fill layer for hover effect
+    map.addLayer({
+        'id': 'hover-fills',
+        'type': 'fill',
+        'source': 'composite',
+        'source-layer': sourceLayerID,
+        'layout': {},
+        'paint': {
+            'fill-color': '#627BC1',
+            'fill-opacity': [
+                'case',
+                ['boolean', ['feature-state', 'hover'], false],
+                0.4,
+                0
+            ]
+        }
+    });
+
+    // Line layer for hover effect
+    map.addLayer({
+        'id': 'hover-lines',
+        'type': 'line',
+        'source': 'composite',
+        'source-layer': sourceLayerID,
+        'layout': {},
+        'paint': {
+            'line-color': '#627BC1',
+            'line-width': 4,
+            'line-opacity': [
+                'case',
+                ['boolean', ['feature-state', 'hover'], false],
+                0.9,
+                0
+            ]
+        }
+    });
+    
+    // Hook hover events
+    map.on("mousemove", "hover-fills", (e) => onMouseMove(e, map, hoveredMunicityID));
+    map.on("mouseleave", "hover-fills", onMouseLeave(map, hoveredMunicityID));
+    map.on("mousemove", "hover-lines", (e) => onMouseMove(e, map, hoveredMunicityID));
+    map.on("mouseleave", "hover-lines", onMouseLeave(map, hoveredMunicityID));
+
+    // Hook click event
+    map.on("click", "municities-fills", (e) => {
+        if (e.features.length > 0) {
+            const features = e.features[0];
+            console.log(features)
+        }
+    });
+}
+
+function onMouseMove(e, map) {
+    if (e.features.length > 0) {
+        if (hoveredMunicityID) {
+            map.setFeatureState(
+                { source: "composite", sourceLayer: sourceLayerID, id: hoveredMunicityID},
+                { hover: false }
+            );
+        }
+        hoveredMunicityID = e.features[0].id;
+        map.setFeatureState(
+            { source: "composite", sourceLayer: sourceLayerID, id: hoveredMunicityID},
+            { hover: true  }
+        );
+    }
+}
+
+function onMouseLeave(map) {
+    if (hoveredMunicityID) {
+        map.setFeatureState(
+            { source: "composite", sourceLayer: sourceLayerID, id: hoveredMunicityID },
+            { hover: false }
+        );
+        hoveredMunicityID = null;
+    }
 }
 
 /**
