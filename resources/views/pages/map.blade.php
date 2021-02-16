@@ -51,6 +51,7 @@
             <h4 id="ov-municity">Municity</h4>
 
             <h4>No. of donation drives: <span id="ov-donodrive">0</span></h4>
+            <h4>Total donations: <span id="ov-donoamount">0</span></h4>
             <h4>No. of affected people: <span id="ov-affected">0</span></h4>
         </div>
     </div>

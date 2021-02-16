@@ -116,15 +116,17 @@ function updateOverlay(e) {
     const region = props.REGION;
     const type = props.TYPE_2;
 
-    // SitRep variables
-    const affected = state.affected ? state.affected : 0;
-    const donations = state.donations ? state.donations : 0;
+    // SitRep variables. Comma-separate by thousands.
+    const affected = state.affected ? state.affected.toLocaleString("en", {useGrouping: true}) : 0;
+    const donations = state.donations ? state.donations.toLocaleString("en", {useGrouping: true}) : 0;
 
     // Update HTML elements. JQuery is <3.
     // Enye character's encoding gets messed up upon upload... hotfix is <3.
     $("#ov-province").html(province.replace("Ã±", "ñ"));
     $("#ov-municity").html(municity);
+
     $("#ov-affected").html(affected);
+    $("#ov-donoamount").html(donations);
 }
 
 function onMouseMove(e, map) {
