@@ -99,10 +99,32 @@ function initMap(map) {
     // Hook click event
     map.on("click", "municities-fills", (e) => {
         if (e.features.length > 0) {
-            const features = e.features[0];
-            console.log(features)
+            console.log(e.features[0])
         }
     });
+}
+
+function updateOverlay(e) {
+    const features = e.features[0];
+    const state = features.state;
+    const props = features.properties;
+
+    // Municity details
+    const id = props.ID_2;
+    const province = props.NAME_2;
+    const municity = props.NAME_1;
+    const region = props.REGION;
+    const type = props.TYPE_2;
+
+    // SitRep variables
+    const affected = state.affected ? state.affected : 0;
+    const donations = state.donations ? state.donations : 0;
+
+    // Update HTML elements. JQuery is <3.
+    // Enye character's encoding gets messed up upon upload... hotfix is <3.
+    $("#ov-province").html(province.replace("Ã±", "ñ"));
+    $("#ov-municity").html(municity);
+    $("#ov-affected").html(affected);
 }
 
 function onMouseMove(e, map) {
@@ -118,6 +140,8 @@ function onMouseMove(e, map) {
             { source: "composite", sourceLayer: sourceLayerID, id: hoveredMunicityID},
             { hover: true  }
         );
+        // Fire update overlay whenever hovering
+        updateOverlay(e);
     }
 }
 
