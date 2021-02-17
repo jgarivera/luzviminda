@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/map', function () {
     return view('pages.map');
 });
+
+Route::get('/partnerorg', function () {
+    return view('pages.partnerorg');
+});
