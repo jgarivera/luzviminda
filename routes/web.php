@@ -24,3 +24,7 @@ Route::get('/map', function () {
 Route::get('/partnerorg', function () {
     return view('pages.partnerorg');
 });
+
+Route::get('/orgprofile', function () {
+    return view('pages.orgprofile');
+});
