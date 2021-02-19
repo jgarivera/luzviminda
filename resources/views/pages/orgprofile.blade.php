@@ -11,61 +11,96 @@
         left: 0px;
         line-height: 24px;
     }
-
-    .heading p {
+    .orgcolor{
         position: absolute;
-        width: 650px;
-        height: 362px;
-        left: -60px;
-        top: -50px;
+        width: 765px;
+        height: 695px;
+        left: -25px;
+        top: -95px;
+        background-color: #14976B;
+    }
+    
+    .heading p {
+        position: relative;
+        margin-top:20px;
 
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
         line-height: 29px;
-
-        color: rgba(255, 255, 255, 0.8);
+        text-align: justify;
+        color: rgba(255, 255, 255, 1);
         }
 
-    .heading h1 {
+    .heading{
         position: absolute;
         width: 718px;
-        height: 133px;
-        left: -60px;
-        top: -80px;
+        height: 600px;
+        top:0px;
+        left:0px;
+    }
 
+    .heading h1 {
+        position: relative;
+        object-fit:container;
+        left: 0px;
+        top: 0px;
         font-family: Montserrat;
         font-style: normal;
         font-weight: 500;
         font-size: 60px;
         line-height: 98px;
-
         color: #FFFFFF;
         }
     
 
     .containerIMG{
-        position: absolute;
-        width: 775px;
+        position: relative;
+        width: 734px;
         height: 695px;
-        left: 699px;
+        left: 740px;
         top: -95px;
+        background-size: cover;
         background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8));
     }
 
-    .overlay1{
-        background:black;
-    }
+    
     .containerIMG img{
-        position: absolute;
         object-fit: cover;
-        margin-right:-0px;
-        min-width: 100%;
-        min-height: 100%
+        width:780px;
+        height: 100%;
     }
     
+    .overlay1{
+        position: absolute;
+        width: 734px;
+        height: 695px;
+        left: 740px;
+        top: -95px;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.5);
+        
+    }
+
+    .box {
+        position: relative;
+        top:180px;
+        width: 400px;
+        height: 400px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .box img{
+        object-fit:cover;
+        min-width: 100%;
+        height:100%;
+        
+    }
     
+
+
     h10 {
         top: 0px;
         font-weight: bold;
@@ -105,29 +140,8 @@
         height: 1880px;
     }
 
-    .heading {
-        position: absolute;
-        width: 1180px;
-        height: 250px;
-        left: 90px;
-        top: 100px;
-    }
 
-    .heading-main {
-        left: 0px;
-        width: 1080px;
-        height: 75px;
-        top: 0px;
-    }
-
-    .heading-sub {
-        position: absolute;
-        width: 810px;
-        height: 75px;
-        top: 75px;
-        left: 0px;
-    }
-
+    
     .button {
         position: absolute;
         background: rgba(255, 255, 255, 0.2);
@@ -138,7 +152,7 @@
     .button-viewmore {
         width: 240px;
         left: 90px;
-        top: 350px;
+        top: 750px;
         border: 1px solid rgba(255, 255, 255, 0.8);
         background: none;
         box-sizing: border-box;
@@ -182,7 +196,7 @@
         position: absolute;
         width: 330px;
         height: 440px;
-        top: 500px;
+        top: 900px;
     }
 
     .container-left {
@@ -214,40 +228,33 @@
         left: 100px;
     }
 
-    .box {
-        position: absolute;
-        top: 0px;
-        width: 100%;
-        height: 200px;
-    }
+    
 
-    .orgimage {
-       
-    }
+    
     </style>
 @endsection
 
 @section('body')
 <div class="body">
+    <div class="orgcolor"></div> 
     <div class="heading">
-        <div class="heading heading-main">
-            <h1>Resilient PH</h1>
-        </div>
-        <div class="heading heading-sub">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. 
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. </p>
-        </div>
+        <h1>Resilient PH</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. 
+        <br><br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. </p>
     </div>
 
-    <div class="containerIMG ">
-        <img class="orgimage" src="{{asset('css/volunteers.jpg')}}"/>
+    <div class="containerIMG">
+        <img src="{{asset('css/volunteers.jpg')}}"/>
+    </div> 
+    <div class="overlay1">
+        <div class="box">
+            <img src="{{ asset('css/resilient ph logo.png') }}" />
+        </div>
     </div> 
 
- <div class="box">
-            <img class="logo" src="{{ asset('css/resilient ph logo.png') }}" />
-        </div>
+    
 
 
 
