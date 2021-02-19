@@ -28,3 +28,11 @@ Route::get('/partnerorg', function () {
 Route::get('/orgprofile', function () {
     return view('pages.orgprofile');
 });
+
+Route::get('/donationform1', function () {
+    return view('pages.donationform1');
+});
+
+Route::get('/donationform2', function () {
+    return view('pages.donationform2');
+});
