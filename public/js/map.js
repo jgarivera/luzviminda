@@ -50,56 +50,71 @@ function setupMap(center) {
 
 const sourceLayerID = "MuniCities-5hms3a";
 var hoveredMunicityID = null;
+var clickedMunicityID = null;
 
 function initMap(map) {
 
-    // Fill layer for hover effect
-    map.addLayer({
-        'id': 'hover-fills',
-        'type': 'fill',
-        'source': 'composite',
-        'source-layer': sourceLayerID,
-        'layout': {},
-        'paint': {
-            'fill-color': '#627BC1',
-            'fill-opacity': [
-                'case',
-                ['boolean', ['feature-state', 'hover'], false],
-                0.4,
-                0
-            ]
-        }
-    });
+    addFillLayer(map, "hover-fills", "#627BC1", "hover");
+    addLineLayer(map, "hover-lines", "#627BC1", "hover");
 
-    // Line layer for hover effect
-    map.addLayer({
-        'id': 'hover-lines',
-        'type': 'line',
-        'source': 'composite',
-        'source-layer': sourceLayerID,
-        'layout': {},
-        'paint': {
-            'line-color': '#627BC1',
-            'line-width': 4,
-            'line-opacity': [
-                'case',
-                ['boolean', ['feature-state', 'hover'], false],
-                0.9,
-                0
-            ]
-        }
-    });
-    
+    addFillLayer(map, "click-fills", "#ffd700", "click");
+    addLineLayer(map, "click-lines", "#ffd700", "click");
+
     // Hook hover events
-    map.on("mousemove", "hover-fills", (e) => onMouseMove(e, map, hoveredMunicityID));
-    map.on("mouseleave", "hover-fills", onMouseLeave(map, hoveredMunicityID));
-    map.on("mousemove", "hover-lines", (e) => onMouseMove(e, map, hoveredMunicityID));
-    map.on("mouseleave", "hover-lines", onMouseLeave(map, hoveredMunicityID));
+    map.on("mousemove", "hover-fills", (e) => onMouseMove(e, map));
+    map.on("mouseleave", "hover-fills", onMouseLeave(map));
+    
+    map.on("mousemove", "hover-lines", (e) => onMouseMove(e, map));
+    map.on("mouseleave", "hover-lines", onMouseLeave(map));
+
+    map.on("click", "click-fills", (e) => onMouseClick(e, map));
+    map.on("click", "click-lines", (e) => onMouseClick(e, map));
 
     // Hook click event
     map.on("click", "municities-fills", (e) => {
         if (e.features.length > 0) {
             console.log(e.features[0])
+        }
+    });
+}
+
+function addFillLayer(map, name, color, bool) {
+    // Fill layer for hover effect
+    map.addLayer({
+        'id': name,
+        'type': 'fill',
+        'source': 'composite',
+        'source-layer': sourceLayerID,
+        'layout': {},
+        'paint': {
+            'fill-color': color,
+            'fill-opacity': [
+                'case',
+                ['boolean', ['feature-state', bool], false],
+                0.4,
+                0
+            ]
+        }
+    });
+}
+
+function addLineLayer(map, name, color, bool) {
+    // Line layer for hover effect
+    map.addLayer({
+        'id': name,
+        'type': 'line',
+        'source': 'composite',
+        'source-layer': sourceLayerID,
+        'layout': {},
+        'paint': {
+            'line-color': color,
+            'line-width': 4,
+            'line-opacity': [
+                'case',
+                ['boolean', ['feature-state', bool], false],
+                0.9,
+                0
+            ]
         }
     });
 }
@@ -129,6 +144,24 @@ function updateOverlay(e) {
     $("#ov-donoamount").html(donations);
 }
 
+function onMouseClick(e, map) {
+    if (e.features.length > 0) {
+        if (clickedMunicityID) {
+            map.setFeatureState(
+                { source: "composite", sourceLayer: sourceLayerID, id: clickedMunicityID},
+                { click: false }
+            );
+        }
+        clickedMunicityID = e.features[0].id;
+        map.setFeatureState(
+            { source: "composite", sourceLayer: sourceLayerID, id: clickedMunicityID},
+            { click: true  }
+        );
+        // Fire update overlay whenever hovering
+        updateOverlay(e);
+    }
+}
+
 function onMouseMove(e, map) {
     if (e.features.length > 0) {
         if (hoveredMunicityID) {
@@ -142,8 +175,10 @@ function onMouseMove(e, map) {
             { source: "composite", sourceLayer: sourceLayerID, id: hoveredMunicityID},
             { hover: true  }
         );
-        // Fire update overlay whenever hovering
-        updateOverlay(e);
+        if (!!!clickedMunicityID) {
+            // Fire update overlay whenever hovering
+            updateOverlay(e);
+        }
     }
 }
 
