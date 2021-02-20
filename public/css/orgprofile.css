@@ -1,0 +1,337 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+    
+    
+    h10, h12, h11, h13 {
+        position: absolute;
+        font-style: normal;
+        color: rgba(255, 255, 255, 0.8);
+        left: 0px;
+        line-height: 24px;
+    }
+
+    body{
+        background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("background.jpg") no-repeat center fixed;
+        background-size: cover;
+        height:5000px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    /*************************SECTION 1*******************/
+    .sec1{
+        position: relative;
+        height:530px;
+    }
+
+    .orgcolor{
+        position: absolute;
+        width: 675px;
+        height: 625px;
+        left: -25px;
+        top: -95px;
+        background-color: #14976B;
+    }
+    
+    .heading{
+        position: absolute;
+        width: 618px;
+        height: 530px;
+        top:0px;
+        left:0px;
+    }
+
+    .heading h1 {
+        position: relative;
+        left: 0px;
+        margin-top: 10px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-size: 50px;
+        color: #FFFFFF;
+        }
+    
+    .heading p {
+        position: relative;
+        margin-top:0px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: justify;
+        color: rgba(255, 255, 255, 1);
+        }
+    
+
+    .containerIMG{
+        position: relative;
+        width: 674px;
+        height: 625px;
+        left: 650px;
+        top: -95px;
+        background-size: cover;
+        /**background-image: url({{asset('css/resilient ph logo.png')}});*/
+        background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8));
+        /**background:linear-gradient(rgba(1, 0, 0, 0.2), rgba(1, 0, 0, 0.2)),url("resilient ph logo.png") no-repeat center fixed;**/
+    }
+
+    
+    .containerIMG img{
+        object-fit: cover;
+        width:780px;
+        height: 100%;
+    }
+    
+    .overlay1{
+        position: absolute;
+        width: 674px;
+        height: 625px;
+        left: 650px;
+        top: -95px;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.5);
+        
+    }
+
+    .logo {
+        position: relative;
+        margin-top:140px;
+        width: 400px;
+        height: 400px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .logo img{
+        object-fit:cover;
+        min-width: 100%;
+        height:100%;
+        
+    }
+    
+    .button {
+        position: absolute;
+        background: rgba(255, 255, 255, 0.2);
+        height: 40px;
+        border-radius: 50px;
+    }
+    
+    .button-back{
+        width: 100px;
+        left: 0px;
+        top: 0px;
+        color:white;
+        background:none;
+        border: 1px solid rgba(255, 255, 255, 0);
+        text-align:left;
+        font-size: 17px;
+        font-family: Montserrat;
+        cursor:pointer;
+    }
+
+    .button-donatenow {
+        position: relative;
+        font-family: Montserrat;
+        width: 180px;
+        height: 50px;
+        margin-left: 220px;
+        margin-top:30px;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        background: none;
+        box-sizing: border-box;
+        font-size: 20px;
+        color: white;
+        cursor:pointer;
+    }
+
+
+
+    
+    /*************************SECTION 2*******************/
+    .sec2{
+        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        height:1000px;
+    }
+
+    .sec2 h1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top:60px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 98px;
+
+        color: #FFFFFF;
+    }
+
+    
+    .container {
+        background: #222427;
+        margin-top:25px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 375px;
+        height: 385px;
+        border-bottom: 4px solid #14976B;
+    }
+
+    .container-left {
+        left: 25px;
+    }
+
+    .container-mid {
+        left: 470px;
+    }
+
+    .container-right {
+        left: 910px;
+    }
+
+    .elipse {
+        position: absolute;
+        margin-top:50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 80px;
+        height: 80px;
+        background: #191A1E;
+        border-radius: 50%;
+    }
+    
+    .container h2{
+        position: absolute;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 160px;
+        color: #FFFFFF;
+    }
+
+    .container p{
+        position: absolute;
+        font-family: Montserrat;
+        font-style: normal;
+        font-size: 16px; 
+        padding-left:30px;
+        padding-right:30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 230px;
+        color: #FFFFFF;
+    }
+
+    .logo1 {
+        border-radius: 50%;
+        background-position: left top;
+        background-repeat: repeat;
+        padding: 20px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .org {
+        position: absolute;
+        top: 20px;
+        width: 200px;
+        height: 70px;
+        left: 100px;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    .button-viewmore {
+        width: 240px;
+        left: 90px;
+        top: 750px;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        background: none;
+        box-sizing: border-box;
+        font-weight: bold;
+        font-size: 17px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+
+    h10 {
+        top: 0px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    h12 {
+        top: 10px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    h11 {
+        top: 30px;
+        font-weight: normal;
+        font-size: 13px;
+    }
+
+    h13 {
+        left: 25%;
+        top: 8px;
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    i {
+        margin: 6px;
+        color: white;
+    }
+
+    
+    
+    
+
+
+    .button-visitbutton {
+        width: 85%;
+        left: 20px;
+        top: 375px;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        background: none;
+        box-sizing: border-box;
+        font-weight: bold;
+        font-size: 17px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    
+
+    .text {
+        position: absolute;
+        width: 215px;
+        height: 35px;
+        left: 45px;
+        top: 7px;
+    }
