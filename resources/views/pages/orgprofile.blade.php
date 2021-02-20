@@ -123,7 +123,7 @@
         left: 25%;
         top: 8px;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     i {
