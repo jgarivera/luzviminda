@@ -1,0 +1,38 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+    
+    .uk-section uk-light uk-background-cover {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+    }
+
+    .heading {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .uk-card {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20x;
+        line-height: 24px;
+        padding: 50px;
+        margin: 30px;
+        width: 330px;
+        height: 440px;
+    }
+
+    .form-btns {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 43px;
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 15px;
+    }

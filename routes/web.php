@@ -36,3 +36,7 @@ Route::get('/donationform1', function () {
 Route::get('/donationform2', function () {
     return view('pages.donationform2');
 });
+
+Route::get('/confirmationpage', function () {
+    return view('pages.confirmationpage');
+});

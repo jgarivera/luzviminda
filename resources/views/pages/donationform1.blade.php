@@ -1,14 +1,18 @@
 @extends('layouts.master')
 
 @section('head')
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset('css/donationforms.css') }}">
 @endsection
 
 @section('body')
 
 <div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m">
-    <h3 class="uk-card-title"><img class="logo" src="{{ asset('css/sample-logo.png') }}">You chose to donate to Resilient PH</h3>
-
+    <img src='css/volunteers.jpg'>
+    <h3 class="uk-card-title">You chose to donate to Resilient PH</h3>
+    
+    <center><div class="line"> </div></center>
+    
     <form>
     <fieldset class="uk-fieldset">
 
@@ -47,6 +51,6 @@
 
     </form>
 
-    <a href="donationform1" class="form-btns">Reset</a> <a href="donationform2" class="form-btns">Next</a>
+    <center><a href="donationform1" class="form-btns">Reset</a> <a href="donationform2" class="form-btns">Next</a></center>
 </div>
 @endsection

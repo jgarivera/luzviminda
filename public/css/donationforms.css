@@ -17,6 +17,13 @@
         padding: 50px;
     }
 
+    .line {
+        height: 0px;
+        width: 40%;
+        border-bottom: 3px solid #14976B;
+        padding-top: 20px;
+    }
+
     .uk-legend {
         font-style: normal;
         font-weight: normal;
@@ -35,6 +42,7 @@
         font-size: 18px;
         line-height: 43px;
         text-align: left;
+        text-transform: uppercase;
     }
     
     .uk-select, .uk-textarea {
