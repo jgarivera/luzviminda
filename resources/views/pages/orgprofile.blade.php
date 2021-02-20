@@ -61,7 +61,7 @@
         </div>
 
         <div class="container container-right"> 
-            <div class="elipse">
+            <div class="elipse">  
                 <i class="fa fa-arrow-down" style="font-size:50px; color: #14976B;"></i>
             </div>
             

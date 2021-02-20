@@ -178,7 +178,7 @@
         position: absolute;
         display: flex;
         justify-content: center;
-        width: 375px;
+        width: 375px;  
         height: 385px;
         border-bottom: 4px solid #14976B;
     }
