@@ -2,6 +2,7 @@
 
 @section('head')
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <title>Landing Page</title>
 @endsection
 
 @section('body')
