@@ -3,15 +3,17 @@
 @section('head')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset('css/orgprofile.css') }}">
+    <title>Organization Profile</title>
 @endsection
 
 @section('body')
 <section class="sec1">
     <div class="orgcolor"></div> 
-    <div class="heading">
-        <button class="button-back" href="#">
-            <i class="fa fa-arrow-left" style="font-size:15 px;"></i> Back
+    <div class="heading"> 
+        <button class="button-back" onclick="window.location.href='{{ route('partner-orgs') }}'">
+            <i class="fa fa-arrow-left" style="font-size:15 px;"></i> Back 
         </button>
+        
 
         <h1>Resilient PH</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. 
@@ -20,7 +22,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper.
         Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. </p>
 
-        <button class="button-donatenow">Donate Now!</button>
+        <button class="button-donatenow" onclick="window.location.href='{{ route('donation-form1') }}'">Donate Now!</button>
         
     </div><!--heading-->
 
@@ -82,7 +84,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.<br><br>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
         </p>
-        <button class="button button-readmore">Read More...</button>
+        <button class="button button-readmore" onclick="window.location.href='{{ route('index') }}'">Read More...</button>
     </div>
         
     <div class="containerStories container-mid">
@@ -95,7 +97,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.<br><br>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
         </p>
-        <button class="button button-readmore">Read More...</button>
+        <button class="button button-readmore" onclick="window.location.href='{{ route('index') }}'">Read More...</button>
     </div>
 
     <div class="containerStories container-right">
@@ -108,7 +110,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.<br><br>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
         </p>
-        <button class="button button-readmore">Read More...</button>
+        <button class="button button-readmore" onclick="window.location.href='{{ route('index') }}'">Read More...</button>
     </div>
 
 </section>

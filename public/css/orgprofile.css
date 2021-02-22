@@ -116,6 +116,7 @@
     
     .button-back:hover {
         color: #222427;
+        text-decoration: none;
         transition: all .5s ease;
         -webkit-transition: all .5s ease;
     }
