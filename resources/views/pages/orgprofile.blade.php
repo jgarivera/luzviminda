@@ -10,7 +10,7 @@
     <div class="orgcolor"></div> 
     <div class="heading">
         <button class="button-back" href="#">
-            <i class="fa fa-arrow-left" style="font-size:15 px;"></i>Back
+            <i class="fa fa-arrow-left" style="font-size:15 px;"></i> Back
         </button>
 
         <h1>Resilient PH</h1>
@@ -41,82 +41,74 @@
 
         <div class="container container-left">
             <div class="elipse">
-                <i class="fa fa-arrow-down" style="font-size:50px; color: #14976B;"></i>
+                <i class="fa fa-users"  style="font-size:40px; color: #14976B;"></i>
             </div>
             
-            <h2>Consultancy Servies</h2>
+            <h2>Community Services</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.</p>
         
         </div>
 
         <div class="container container-mid"> <div class="elipse">
-                <i class="fa fa-arrow-down" style="font-size:50px; color: #14976B;"></i>
+                <i class="fa fa-archive" style="font-size:40px; color: #14976B;"></i>
             </div>
             
-            <h2>Consultancy Servies</h2>
+            <h2>Donation Drives</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.</p>
         
         </div>
 
         <div class="container container-right"> 
             <div class="elipse">  
-                <i class="fa fa-arrow-down" style="font-size:50px; color: #14976B;"></i>
+                <i class="fa fa-credit-card-alt" style="font-size:40px; color: #14976B;"></i>
             </div>
             
-            <h2>Consultancy Servies</h2>
+            <h2>Funds Management</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.</p>
         
         </div>
-
-        <!---
-        <button class="button button-viewmore">
-                <div class="elipse">
-                    <i class="fa fa-arrow-down" style="font-size:20px;"></i>
-                </div>
-                <div class="text">
-                    <h10>Back</h10>
-                </div>
-            </button>-->
 </section>
 
 <section class="sec3">
-    <div class="container container-left">
-        <div class="elipse">
-            <i class="fa fa-arrow-down" style="font-size:50px; color: #14976B;"></i>
-        </div>
-        
-        <h2>Consultancy Servies</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.</p>
-    
-        <div class="box">
-            <img class="orgimage" src="{{asset('images/helping-hand.jpeg')}}"/>
-        </div>
 
-        <button class="button button-visitbutton">Visit Organization</button>
+<h1>Stories</h1>
+    <div class="containerStories container-left">
+        <div class="storyPic">
+            <img src="{{asset('images/fundraiser.jpg')}}"/>
+        </div>
+        <h2>Fundraising Events</h2>
+        <div class="StoriesLine"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.<br><br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
+        </p>
+        <button class="button button-readmore">Read More...</button>
     </div>
         
-    <div class="container container-mid">
-        <img class="logo1" src="{{ asset('images/sample-logo.png') }}" />
-        <div class="org">
-            <h12>Resilience PH</h12>
-            <h11>Philippines</h11>
+    <div class="containerStories container-mid">
+        <div class="storyPic">
+            <img src="{{asset('images/donorRecepient.jpg')}}"/>
         </div>
-        <div class="box">
-            <img class="orgimage" src="{{asset('images/helping-hand.jpeg')}}"/>
-        </div>
-        <button class="button button-visitbutton">Visit Organization</button>
+        <h2>Donor and Recipient Moments</h2>
+        <div class="StoriesLine"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.<br><br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
+        </p>
+        <button class="button button-readmore">Read More...</button>
     </div>
 
-    <div class="container container-right">
-        <img class="logo1" src="{{ asset('images/sample-logo.png') }}" />
-        <div class="org">
-            <h12>Resilience PH</h12>
-            <h11>Philippines</h11>
+    <div class="containerStories container-right">
+    <div class="storyPic">
+            <img src="{{asset('images/donate.jpg')}}"/>
         </div>
-        <div class="box">
-            <img class="orgimage" src="{{asset('images/helping-hand.jpeg')}}"/>
-        </div>
-        <button class="button button-visitbutton">Visit Organization</button>
+        <h2>#RollyPH Donation Drive</h2>
+        <div class="StoriesLine"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.<br><br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
+        </p>
+        <button class="button button-readmore">Read More...</button>
     </div>
 
 </section>
