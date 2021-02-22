@@ -16,7 +16,7 @@
     <body class="uk-height-viewport" style="padding: 25px;">
         <nav class="uk-navbar" id="navbar" data-uk-navbar="">
             <div class="uk-navbar-left">
-                <a style="color: #fff" class="uk-navbar-item uk-logo" href="#"><img src="{{ asset('css/Luz-Logo.png') }}" />Luzviminda</a>
+                <a style="color: #fff" class="uk-navbar-item uk-logo" href="#"><img class="nav-logo" src="{{ asset('css/Luz-Logo.png') }}" />Luzviminda</a>
             </div>
             
             <div class="uk-navbar-right">

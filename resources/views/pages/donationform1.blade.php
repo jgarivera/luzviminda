@@ -9,7 +9,7 @@
 @section('body')
 
 <div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m">
-    <img src="{{ public_path('images/volunteers.jpg') }} /">
+    <img src="{{ asset('images/volunteers.jpg') }}">
     <h3 class="uk-card-title">You chose to donate to Resilient PH</h3>
     
     <center><div class="line"> </div></center>
