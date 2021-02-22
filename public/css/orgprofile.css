@@ -253,15 +253,34 @@
         left: 100px;
     }
 
+
+
+
     
+    /*************************SECTION 3*******************/
+    
+    .containerStories {
+        background: #222427;
+        margin-top:25px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 375px;  
+        height: 385px;
+        border-bottom: 4px solid #14976B;
+    }
 
-
-
-
-
-
-
-
+    .button-visitbutton {
+        width: 85%;
+        left: 20px;
+        top: 375px;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        background: none;
+        box-sizing: border-box;
+        font-weight: bold;
+        font-size: 17px;
+        color: rgba(255, 255, 255, 0.8);
+    }
 
 
 
