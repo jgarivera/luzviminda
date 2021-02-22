@@ -22,8 +22,8 @@
             
             <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav uk-visible@m">
-                    <li><a style="nav-link" href="#">Home</a></li>
-                    <li><a style="nav-link" href="#">Partners</a></li>
+                    <li><a style="nav-link" href="{{ route('index') }}">Home</a></li>
+                    <li><a style="nav-link" href="{{ route('partner-orgs') }}">Partners</a></li>
                 </ul>
                 <!-- <div class="uk-navbar-item">
                     <a class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon" data-uk-toggle="" data-uk-navbar-toggle-icon="" href="#offcanvas-nav" aria-expanded="false"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><rect y="9" width="20" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="20" height="2"></rect></svg></a>

@@ -15,28 +15,28 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('pages.index');
-});
+})->name('index');
 
 Route::get('/map', function () {
     return view('pages.map');
-});
+})->name('map');
 
-Route::get('/partnerorg', function () {
+Route::get('/partner-orgs', function () {
     return view('pages.partnerorg');
-});
+})->name('partner-orgs');
 
-Route::get('/orgprofile', function () {
+Route::get('/org-profile', function () {
     return view('pages.orgprofile');
-});
+})->name('org-profile');
 
-Route::get('/donationform1', function () {
+Route::get('/donation-form1', function () {
     return view('pages.donationform1');
-});
+})->name('donation-form1');
 
-Route::get('/donationform2', function () {
+Route::get('/donation-form2', function () {
     return view('pages.donationform2');
-});
+})->name('donation-form2');
 
-Route::get('/confirmationpage', function () {
+Route::get('/donation-confirm', function () {
     return view('pages.confirmationpage');
-});
+})->name('donation-confirm');

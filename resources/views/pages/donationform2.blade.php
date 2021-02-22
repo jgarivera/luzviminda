@@ -61,6 +61,6 @@
 
     </form>
 
-    <center><a href="confirmationpage" class="form-btns">Submit</a></center>
+    <center><a href="{{ route('donation-confirm') }}" class="form-btns">Submit</a></center>
 </div>
 @endsection

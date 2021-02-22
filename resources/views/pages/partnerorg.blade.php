@@ -41,7 +41,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     </div>
                     <div class="uk-card-footer">
-                        <a href="#" class="uk-button uk-button-text">Visit Organization</a>
+                        <a href="{{ route('org-profile') }}" class="uk-button uk-button-text">Visit Organization</a>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     </div>
                     <div class="uk-card-footer">
-                        <a href="#" class="uk-button uk-button-text">Visit Organization</a>
+                        <a href="{{ route('org-profile') }}" class="uk-button uk-button-text">Visit Organization</a>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     </div>
                     <div class="uk-card-footer">
-                        <a href="#" class="uk-button uk-button-text">Visit Organization</a>
+                        <a href="{{ route('org-profile') }}" class="uk-button uk-button-text">Visit Organization</a>
                     </div>
                 </div>
             </div>
