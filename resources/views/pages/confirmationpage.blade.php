@@ -7,8 +7,8 @@
 @endsection
 
 @section('body')
-<div class="uk-section uk-light uk-background-cover" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(css/volunteers.jpg)">
-<img src="css/volunteers.jpg">
+<div class="uk-section uk-light uk-background-cover" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/helping-hand.jpeg)">
+<center><img src="{{ asset('images/resilient ph logo.png') }}" style="width:250px;" /></center>
     <div class="heading">
         <div class="heading heading-main">
             <h1>Thank you Juan Dela Cruz for your generous donation!</h1>
@@ -22,25 +22,25 @@
 <div class="uk-section">
     <div class="uk-container">
 
-        <center><h1>Other Pages</h1></center>
+        <center><h1 style="color:white;">Other Pages</h1></center>
 
         <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
             <div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m">
-                <center><h3 class="uk-card-title">Learn more about ResilientPH donation drives here</h3></center>
-                <img src="css/volunteers.jpg">
-                <center><a href="orgprofile" class="form-btns">Go to Page</a></center>
+                <center><h3 class="uk-card-title">Learn more about ResilientPH donation drives here</h3>
+                <div class="thumbnail" style="background-image: url(images/resilient ph logo.jpg);"> </div>
+                <a href="orgprofile" class="form-btns">Go to Page</a></center>
             </div>
             
             <div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m">
-                <center><h3 class="uk-card-title">Learn more about other Partner Organizations here</h3></center>
-                <img src="css/volunteers.jpg">
-                <center><a href="partnerorg" class="form-btns">Go to Page</a></center>
+                <center><h3 class="uk-card-title">Learn more about other Partner Organizations here</h3>
+                <div class="thumbnail" style="background-image: url(images/volunteers.jpg);"> </div>
+                <a href="partnerorg" class="form-btns">Go to Page</a></center>
             </div>
 
             <div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m">
-                <center><h3 class="uk-card-title">Learn more about Disaster Resiliency here</h3></center>
-                <img src="css/volunteers.jpg">
-                <center><a href="/" class="form-btns">Go to Page</a></center>
+                <center><h3 class="uk-card-title">Learn more about Disaster Resiliency here</h3>
+                <div class="thumbnail" style="background-image: url(images/NDRM.png);"> </div>
+                <a href="/" class="form-btns">Go to Page</a></center>
             </div>
         </div>
     </div>

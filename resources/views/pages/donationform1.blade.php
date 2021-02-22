@@ -9,12 +9,12 @@
 @section('body')
 
 <div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m">
-    <img src="{{ asset('images/volunteers.jpg') }}">
+<center><img src="{{ asset('images/resilient ph logo.png') }}" style="width:250px;" /></center>
     <h3 class="uk-card-title">You chose to donate to Resilient PH</h3>
     
     <center><div class="line"> </div></center>
     
-    <form>
+    <form style="padding: 20px;">
     <fieldset class="uk-fieldset">
 
         <legend class="uk-legend">Please fill the form so we may acknowledge you properly</legend>
