@@ -32,7 +32,7 @@
 
     <div class="overlay1">
         <div class="logo">
-            <img src="{{ asset('css/resilient ph logo.png') }}" />
+            <img src="{{ asset('images/resilient ph logo.png') }}" />
         </div>
     </div> 
 </section>
@@ -82,47 +82,44 @@
 </section>
 
 <section class="sec3">
-
-
-
-<div class="container container-left">
-            <div class="elipse">
-                <i class="fa fa-arrow-down" style="font-size:50px; color: #14976B;"></i>
-            </div>
+    <div class="container container-left">
+                <div class="elipse">
+                    <i class="fa fa-arrow-down" style="font-size:50px; color: #14976B;"></i>
+                </div>
+                
+                <h2>Consultancy Servies</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.</p>
             
-            <h2>Consultancy Servies</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.</p>
-           
-            <div class="box">
-                <img class="orgimage" src="{{asset('css/helping-hand.jpeg')}}"/>
+                <div class="box">
+                    <img class="orgimage" src="{{asset('images/helping-hand.jpeg')}}"/>
+                </div>
+
+                <button class="button button-visitbutton">Visit Organization</button>
+            </div>
+        
+    <div class="container container-mid">
+            <img class="logo1" src="{{ asset('images/sample-logo.png') }}" />
+                <div class="org">
+                    <h12>Resilience PH</h12>
+                    <h11>Philippines</h11>
+                </div>
+                <div class="box">
+                    <img class="orgimage" src="{{asset('images/helping-hand.jpeg')}}"/>
+                </div>
+                <button class="button button-visitbutton">Visit Organization</button>
             </div>
 
-            <button class="button button-visitbutton">Visit Organization</button>
-        </div>
-    
-<div class="container container-mid">
-        <img class="logo1" src="{{ asset('css/sample-logo.png') }}" />
-            <div class="org">
-                <h12>Resilience PH</h12>
-                <h11>Philippines</h11>
+            <div class="container container-right">
+            <img class="logo1" src="{{ asset('images/sample-logo.png') }}" />
+                <div class="org">
+                    <h12>Resilience PH</h12>
+                    <h11>Philippines</h11>
+                </div>
+                <div class="box">
+                    <img class="orgimage" src="{{asset('images/helping-hand.jpeg')}}"/>
+                </div>
+                <button class="button button-visitbutton">Visit Organization</button>
             </div>
-            <div class="box">
-                <img class="orgimage" src="{{asset('css/helping-hand.jpeg')}}"/>
-            </div>
-            <button class="button button-visitbutton">Visit Organization</button>
-        </div>
-
-        <div class="container container-right">
-        <img class="logo1" src="{{ asset('css/sample-logo.png') }}" />
-            <div class="org">
-                <h12>Resilience PH</h12>
-                <h11>Philippines</h11>
-            </div>
-            <div class="box">
-                <img class="orgimage" src="{{asset('css/helping-hand.jpeg')}}"/>
-            </div>
-            <button class="button button-visitbutton">Visit Organization</button>
-        </div>
 
 </section>
 

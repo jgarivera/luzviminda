@@ -137,8 +137,7 @@
         margin-left: 220px;
         margin-top:30px;
         border: 1px solid rgba(255, 255, 255, 0.8);
-        background: none;
-        box-sizing: border-box;
+        border-radius:25px;
         font-size: 20px;
         color: white;
         cursor:pointer;
