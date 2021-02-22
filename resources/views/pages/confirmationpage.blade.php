@@ -27,19 +27,19 @@
         <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
             <div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m">
                 <center><h3 class="uk-card-title">Learn more about ResilientPH donation drives here</h3>
-                <div class="thumbnail" style="background-image: url(images/resilient ph logo.jpg);"> </div>
+                <img class="thumbnail" src="{{asset('images/resilient ph logo.png')}}"/>
                 <a href="orgprofile" class="form-btns">Go to Page</a></center>
             </div>
             
             <div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m">
                 <center><h3 class="uk-card-title">Learn more about other Partner Organizations here</h3>
-                <div class="thumbnail" style="background-image: url(images/volunteers.jpg);"> </div>
+                <img class="thumbnail" src="{{asset('images/volunteers.jpg')}}"/>
                 <a href="partnerorg" class="form-btns">Go to Page</a></center>
             </div>
 
             <div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m">
                 <center><h3 class="uk-card-title">Learn more about Disaster Resiliency here</h3>
-                <div class="thumbnail" style="background-image: url(images/NDRM.png);"> </div>
+                <img class="thumbnail" src="{{asset('images/NDRM.png')}}"/>
                 <a href="/" class="form-btns">Go to Page</a></center>
             </div>
         </div>
