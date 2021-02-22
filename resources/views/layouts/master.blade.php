@@ -5,24 +5,25 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
-        <!-- UIkit CSS -->
+        <!-- CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/css/uikit.min.css" />
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
         @section('head')
         @show
     </head>
 
     <!-- Body section -->
-    <body class="uk-height-viewport" style="padding: 25px;">
-        <nav class="uk-navbar" id="navbar" data-uk-navbar="">
+    <body class="uk-height-viewport">
+                
+        <nav class="nav uk-navbar" id="navbar" data-uk-navbar="">
             <div class="uk-navbar-left">
-                <a style="color: #fff" class="uk-navbar-item uk-logo" href="#"><img class="nav-logo" src="{{ asset('css/Luz-Logo.png') }}" />Luzviminda</a>
+                <a class="uk-navbar-item uk-logo nav-link" href="#"><img class="nav-logo" src="{{ asset('css/Luz-Logo.png') }}" />Luzviminda</a>
             </div>
             
             <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav uk-visible@m">
-                    <li><a style="color: #fff" href="#">Home</a></li>
-                    <li><a style="color: #fff" href="#">Partners</a></li>
+                    <li><a style="nav-link" href="#">Home</a></li>
+                    <li><a style="nav-link" href="#">Partners</a></li>
                 </ul>
                 <!-- <div class="uk-navbar-item">
                     <a class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon" data-uk-toggle="" data-uk-navbar-toggle-icon="" href="#offcanvas-nav" aria-expanded="false"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><rect y="9" width="20" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="20" height="2"></rect></svg></a>
