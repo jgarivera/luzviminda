@@ -81,7 +81,7 @@
 </section>
 
 <section class="sec3">
-    <div class="containerStories container-left">
+    <div class="container container-left">
         <div class="elipse">
             <i class="fa fa-arrow-down" style="font-size:50px; color: #14976B;"></i>
         </div>
@@ -96,7 +96,7 @@
         <button class="button button-visitbutton">Visit Organization</button>
     </div>
         
-    <div class="containerStories container-mid">
+    <div class="container container-mid">
         <img class="logo1" src="{{ asset('images/sample-logo.png') }}" />
         <div class="org">
             <h12>Resilience PH</h12>
@@ -108,7 +108,7 @@
         <button class="button button-visitbutton">Visit Organization</button>
     </div>
 
-    <div class="containerStories container-right">
+    <div class="container container-right">
         <img class="logo1" src="{{ asset('images/sample-logo.png') }}" />
         <div class="org">
             <h12>Resilience PH</h12>
