@@ -11,10 +11,7 @@
     }
 
     body{
-        background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("background.jpg") no-repeat center fixed;
-        background-size: cover;
         height:5000px;
-        font-family: 'Montserrat', sans-serif;
     }
 
     /*************************SECTION 1*******************/
