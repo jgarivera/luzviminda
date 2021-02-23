@@ -49,6 +49,9 @@ Route::get('/donation-form1-jci-cebu-sinunlog', function () {
     return view('pages.donationform1jcicebusinulog');
 })->name('donation-form1-jci-cebu-sinulog');
 
+Route::get('/donation-form2-jci-cebu-sinulog', function () {
+    return view('pages.donationform2jcicebusinulog');
+})->name('donation-form2-jci-cebu-sinulog');
 
 /** Dashboard Routes */
 
