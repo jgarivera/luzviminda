@@ -29,16 +29,16 @@ Route::get('/org-profile', function () {
     return view('pages.orgprofile');
 })->name('org-profile');
 
-Route::get('/donation-form1', function () {
-    return view('pages.donationform1');
+Route::get('/donation-form1-resilientph', function () {
+    return view('pages.donationform1resilientPH');
 })->name('donation-form1');
 
-Route::get('/donation-form2', function () {
-    return view('pages.donationform2');
+Route::get('/donation-form2-resilientph', function () {
+    return view('pages.donationform2resilientPH');
 })->name('donation-form2');
 
-Route::get('/donation-confirm', function () {
-    return view('pages.confirmationpage');
+Route::get('/donation-confirm-resilientph', function () {
+    return view('pages.confirmationpageresilientPH');
 })->name('donation-confirm');
 
 /** Dashboard Routes */
