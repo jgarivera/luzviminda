@@ -14,16 +14,15 @@
 
     <!-- Body section -->
     <body class="uk-height-viewport">
-                
-        <nav class="nav uk-navbar" id="navbar" data-uk-navbar="">
+        <nav class="uk-navbar nav" data-uk-navbar="">
             <div class="uk-navbar-left">
                 <a class="uk-navbar-item uk-logo nav-link" href="{{ route('index') }}"><img class="nav-logo" src="{{ asset("images/Luz-Logo.png") }}" />Luzviminda</a>
             </div>
             
-            <div class="uk-navbar-right">
+            <div class="uk-navbar-right nav-right">
                 <ul class="uk-navbar-nav uk-visible@m">
-                    <li><a style="nav-link" href="{{ route('index') }}">Home</a></li>
-                    <li><a style="nav-link" href="{{ route('partner-orgs') }}">Partners</a></li>
+                    <li><a class="nav-link" href="{{ route('index') }}">Home</a></li>
+                    <li><a class="nav-link" href="{{ route('partner-orgs') }}">Partners</a></li>
                 </ul>
                 <!-- <div class="uk-navbar-item">
                     <a class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon" data-uk-toggle="" data-uk-navbar-toggle-icon="" href="#offcanvas-nav" aria-expanded="false"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><rect y="9" width="20" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="20" height="2"></rect></svg></a>
@@ -31,8 +30,11 @@
                 </div> -->
             </div>
         </nav>
+
+        <div style="padding-top: 120px">
         @section('body')
         @show
+        </div>
     </body>
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit.min.js"></script>

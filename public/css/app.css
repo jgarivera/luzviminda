@@ -7,7 +7,15 @@ body {
 }
 
 .nav-link {
-    color: #fff;
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #14976B !important;
+}
+
+.nav-right {
+    margin-right: 2em;
 }
 
 .nav {
@@ -17,6 +25,7 @@ body {
     width: 100%;
     height: 70px;
     z-index: 99;
+    padding: 1em;
 }
 
 .dash {
