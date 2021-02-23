@@ -61,6 +61,6 @@
 
     </form>
 
-    <center><a href="{{ route('donation-confirm-jci-cebu-sinulog') }}" class="form-btns">Submit</a></center>
+    <center><a href="{{ route('donation-confirm-resilientph') }}" class="form-btns">Submit</a></center>
 </div>
 @endsection

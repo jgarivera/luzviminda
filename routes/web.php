@@ -31,17 +31,17 @@ Route::get('/org-profile', function () {
 
 /** Resilient PH donation form Routes */
 
-Route::get('/donation-form1', function () {
-    return view('pages.donationform1');
-})->name('donation-form1');
+Route::get('/donation-form1-resilientph', function () {
+    return view('pages.forms.ResilientPH.donationform1resilientph');
+})->name('donation-form1-resilientph');
 
-Route::get('/donation-form2', function () {
-    return view('pages.donationform2');
-})->name('donation-form2');
+Route::get('/donation-form2-resilientph', function () {
+    return view('pages.forms.ResilientPH.donationform2resilientph');
+})->name('donation-form2-resilientph');
 
-Route::get('/donation-confirm', function () {
-    return view('pages.confirmationpage');
-})->name('donation-confirm');
+Route::get('/donation-confirm-resilientph', function () {
+    return view('pages.forms.ResilientPH.confirmationpageresilientph');
+})->name('donation-confirm-resilientph');
 
 /** JCI Cebu Sinulog donation form Routes */
 

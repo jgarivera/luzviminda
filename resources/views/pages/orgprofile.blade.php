@@ -22,7 +22,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper.
         Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. </p>
 
-        <button class="button-donatenow" onclick="window.location.href='{{ route('donation-form1') }}'">Donate Now!</button>
+        <button class="button-donatenow" onclick="window.location.href='{{ route('donation-form1-resilientph') }}'">Donate Now!</button>
         
     </div><!--heading-->
 

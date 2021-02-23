@@ -52,6 +52,6 @@
 
     </form>
 
-    <center><a href="{{ route('donation-form1') }}" class="form-btns">Reset</a> <a href="{{ route('donation-form2') }}" class="form-btns">Next</a></center>
+    <center><a href="{{ route('donation-form1-resilientph') }}" class="form-btns">Reset</a> <a href="{{ route('donation-form2-resilientph') }}" class="form-btns">Next</a></center>
 </div>
 @endsection
