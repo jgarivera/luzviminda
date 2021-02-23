@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <!-- CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/css/uikit.min.css" />
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/dashboard/app.css') }}">
         @section('head')
         @show
     </head>
@@ -19,22 +19,36 @@
                 <a class="uk-navbar-item uk-logo nav-link" href="{{ route('index') }}"><img class="nav-logo" src="{{ asset("images/Luz-Logo.png") }}" />Luzviminda</a>
             </div>
 
-            <div class="uk-navbar-right">
-                <a href="#offcanvas-usage" uk-toggle>Open</a>
+            <div class="uk-navbar-right nav-right">
+                <a class="nav-link" href="#offcanvas-usage" uk-toggle>OPEN THE SIDENAV</a>
             </div>
         </nav>
 
         <!-- Side nav -->
         <div id="offcanvas-usage" uk-offcanvas="flip: true">
-            <div class="uk-offcanvas-bar">
+            <div class="uk-offcanvas-bar side-nav">
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
-                <h3>Title</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                
+                <h3>Welcome</h3>
+                <img src="{{ asset('images/jci-logo.jpg')}}">
+                <h4>JCI Cebu Sinulog</h4>
+
+                <hr class="side-nav-hr">
+
+                <ul class="side-nav-links">
+                    <li><a class="nav-link">Dashboard</a></li>
+                    <li><a class="nav-link">Records</a></li>
+                    <li><a class="nav-link">Editor</a></li>
+                </ul>
+
+                <hr class="side-nav-hr">
             </div>
         </div>
 
-        @section('body')
-        @show
+        <div class="body-container">
+            @section('body')
+            @show
+        </div>
     </body>
 
     <!-- UIkit JS -->
