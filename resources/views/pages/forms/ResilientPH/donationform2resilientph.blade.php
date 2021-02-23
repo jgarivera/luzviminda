@@ -8,7 +8,7 @@
 
 @section('body')
 
-<div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m">
+<div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m" style="border-bottom: 3px solid #14976B;>
 <center><img src="{{ asset('images/resilient ph logo.png') }}" style="width:250px;" /></center>
     <h3 class="uk-card-title">You chose to donate to Resilient PH</h3>
 
