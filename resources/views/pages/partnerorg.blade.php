@@ -7,7 +7,7 @@
 @endsection
 
 @section('body')
-    <div class="uk-container" style="padding-top: 150px;">
+    <div class="uk-container">
         <div class="heading">
             <div class="heading heading-main">
                 <h1>Partner<br> Organizations</h1>

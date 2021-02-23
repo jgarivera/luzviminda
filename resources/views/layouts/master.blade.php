@@ -31,9 +31,9 @@
             </div>
         </nav>
 
-        <div style="padding-top: 120px">
-        @section('body')
-        @show
+        <div class="body-container">
+            @section('body')
+            @show
         </div>
     </body>
     <!-- UIkit JS -->

@@ -18,6 +18,10 @@ body {
     margin-right: 2em;
 }
 
+.body-container {
+    padding-top: 120px;
+}
+
 .nav {
     position: fixed;
     display: flex;
