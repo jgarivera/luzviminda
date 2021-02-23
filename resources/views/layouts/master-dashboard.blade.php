@@ -36,9 +36,23 @@
                 <hr class="side-nav-hr">
 
                 <ul class="side-nav-links">
-                    <li><a class="nav-link">Dashboard</a></li>
-                    <li><a class="nav-link">Records</a></li>
-                    <li><a class="nav-link">Editor</a></li>
+                    <li>
+                        @if(Route::current()->getName() === 'dashboard.index')
+                            <span class="dot"></span>
+                        @endif
+                        <a href="{{ route('dashboard.index') }}" class="nav-link">Dashboard</a></li>
+                    <li>
+                        @if(Route::current()->getName() === 'dashboard.records-manager')
+                            <span class="dot"></span>
+                        @endif
+                        <a href="{{ route('dashboard.records-manager') }}" class="nav-link">Records</a>
+                    </li>
+                    <li>
+                        @if(Route::current()->getName() === 'dashboard.org-page-editor')
+                            <span class="dot"></span>
+                        @endif
+                        <a href="{{ route('dashboard.org-page-editor') }}"class="nav-link">Editor</a>
+                    </li>
                 </ul>
 
                 <hr class="side-nav-hr">

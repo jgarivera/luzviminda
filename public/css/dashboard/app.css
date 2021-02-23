@@ -6,6 +6,17 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #14976B;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right: 0.5em;
+    margin-left: -1em;
+}
+
 .side-nav {
     width: 280px;
     text-align: center;
