@@ -40,3 +40,15 @@ Route::get('/donation-form2', function () {
 Route::get('/donation-confirm', function () {
     return view('pages.confirmationpage');
 })->name('donation-confirm');
+
+/** Dashboard Routes */
+
+Route::prefix('dashboard')->group(function () {
+    Route::get('/', function () {
+        return view('pages.dashboard.index');
+    })->name('dashboard.index');
+
+    Route::get('/records', function () {
+        return view('pages.dashboard.index');
+    })->name('dashboard.records-manager');
+});
