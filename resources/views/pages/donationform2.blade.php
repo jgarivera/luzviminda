@@ -12,7 +12,7 @@
 <center><img src="{{ asset('images/resilient ph logo.png') }}" style="width:250px;" /></center>
     <h3 class="uk-card-title">You chose to donate to Resilient PH</h3>
 
-    <center><div class="line"> </div></center>
+    <center><div class="line" style="border-bottom: 3px solid #14976B;"> </div></center>
 
     <form style="padding: 20px;">
     <fieldset class="uk-fieldset">
@@ -49,7 +49,7 @@
         <label class="uk-form-label" for="form-horizontal-select">Message to Organization:</label>
             <textarea class="uk-textarea" rows="5" placeholder="Write message here"></textarea>
 
-        <center><div class="line"> </div></center>
+        <center><div class="line" style="border-bottom: 3px solid #14976B;"> </div></center>
 
         <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
             <label class="agreement"><input class="uk-checkbox" type="checkbox">  I permit LuzViMinda services and the organization of my choice to have access to the given information upon Agreement of Terms and Conditions.*</label>

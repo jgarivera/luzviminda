@@ -7,7 +7,6 @@
         font-weight: bold;
         font-size: 35px;
         line-height: 43px;
-        border-bottom: 3px solid #14976B;
         position: absolute;
         left: 25%;
         padding: 50px;
@@ -16,7 +15,6 @@
     .line {
         height: 0px;
         width: 40%;
-        border-bottom: 3px solid #14976B;
         padding-top: 20px;
     }
 

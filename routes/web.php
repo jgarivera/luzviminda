@@ -29,6 +29,8 @@ Route::get('/org-profile', function () {
     return view('pages.orgprofile');
 })->name('org-profile');
 
+/** Resilient PH donation form Routes */
+
 Route::get('/donation-form1', function () {
     return view('pages.donationform1');
 })->name('donation-form1');
@@ -40,6 +42,13 @@ Route::get('/donation-form2', function () {
 Route::get('/donation-confirm', function () {
     return view('pages.confirmationpage');
 })->name('donation-confirm');
+
+/** JCI Cebu Sinulog donation form Routes */
+
+Route::get('/donation-form1-jci-cebu-sinunlog', function () {
+    return view('pages.donationform1jcicebusinulog');
+})->name('donation-form1-jci-cebu-sinulog');
+
 
 /** Dashboard Routes */
 
