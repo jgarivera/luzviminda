@@ -8,11 +8,11 @@
 
 @section('body')
 
-<div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m">
+<div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m" style="border-bottom: 3px solid #0097d8">
 <center><img src="{{ asset('images/jci-logo.jpg') }}" style="width:250px;" /></center>
     <h3 class="uk-card-title">You chose to donate to JCI Cebu Sinulog</h3>
     
-    <center><div class="line" style="color: #0097d8"> </div></center>
+    <center><div class="line" style="border-bottom: 3px solid #0097d8;"> </div></center>
     
     <form style="padding: 20px;">
     <fieldset class="uk-fieldset">
@@ -52,6 +52,6 @@
 
     </form>
 
-    <center><a href="{{ route('donation-form1') }}" class="form-btns">Reset</a> <a href="{{ route('donation-form2') }}" class="form-btns">Next</a></center>
+    <center><a href="{{ route('donation-form1-jci-cebu-sinulog') }}" class="form-btns">Reset</a> <a href="{{ route('donation-form2') }}" class="form-btns">Next</a></center>
 </div>
 @endsection
