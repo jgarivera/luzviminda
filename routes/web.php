@@ -45,13 +45,17 @@ Route::get('/donation-confirm', function () {
 
 /** JCI Cebu Sinulog donation form Routes */
 
-Route::get('/donation-form1-jci-cebu-sinunlog', function () {
+Route::get('/donation-form1-jci-cebu-sinulog', function () {
     return view('pages.donationform1jcicebusinulog');
 })->name('donation-form1-jci-cebu-sinulog');
 
 Route::get('/donation-form2-jci-cebu-sinulog', function () {
     return view('pages.donationform2jcicebusinulog');
 })->name('donation-form2-jci-cebu-sinulog');
+
+Route::get('/donation-confirm-jci-cebu-sinulog', function () {
+    return view('pages.confirmationpagejcicebusinulog');
+})->name('donation-confirm-jci-cebu-sinulog');
 
 /** Dashboard Routes */
 
