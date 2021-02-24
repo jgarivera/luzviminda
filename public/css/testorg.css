@@ -139,94 +139,6 @@
 
     
     /*************************SECTION 2*******************/
-    .sec2{
-        position: relative;
-        font-family: 'Montserrat', sans-serif;
-        height:600px;
-    }
-
-    .sec2 h1{
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        margin-top:60px;
-
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 60px;
-        line-height: 98px;
-
-        color: #FFFFFF;
-    }
-
-    
-    .container {
-        background: #222427;
-        margin-top:25px;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        width: 375px;  
-        height: 385px;
-        border-bottom: 4px solid #14976B;
-    }
-
-    .container-left {
-        left: 40px;
-    }
-
-    .container-mid {
-        left: 485px;
-    }
-
-    .container-right {
-        left: 925px;
-    }
-
-    .elipse {
-        position: absolute;
-        margin-top:50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        width: 80px;
-        height: 80px;
-        background: #191A1E;
-        border-radius: 50%;
-    }
-    
-    .container h2{
-        position: absolute;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px; 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        margin-top: 160px;
-        color: #FFFFFF;
-    }
-
-    .container p{
-        position: absolute;
-        font-family: Montserrat;
-        font-style: normal;
-        font-size: 16px; 
-        padding-left:30px;
-        padding-right:30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        margin-top: 230px;
-        color: #FFFFFF;
-    }
 
 
     
@@ -326,11 +238,10 @@
 
 
     .button-readmore {
-        position: absolute;
+        position: relative;
         font-family: Montserrat;
         width: 220px;
         height: 50px;
-        top: 550px; 
         border: 1px solid rgba(20, 151, 107, 1);
         border-radius:10px;
         font-size: 18px;

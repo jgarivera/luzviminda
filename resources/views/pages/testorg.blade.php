@@ -38,163 +38,187 @@
     </div> 
 </section>
 -->
+
 <div class="uk-container">
+    <!---WHAT WE DO-->
+    <div class="uk-width-expand" style="text-align: center;">
+        <h1 class="uk-card-title uk-margin-remove-bottom" style="color:white; font-family: Montserrat; font-weight: bold; font-size: 60px; ">What We Do</h1>
+    
         <div id="forMore" class="uk-child-width-1-3@m uk-text-center uk-margin-large-top" uk-grid>
-            <div>
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-header">
-                        <div class="uk-grid-small uk-flex-middle" uk-grid>
+            <div><!--left-card-->
+                <div class="uk-card uk-card-default" style="background: #222427; color:white; border-bottom: 4px solid #14976B;">
+                    <div class="uk-card-header" style="border:none;">
+                        <div class="uk-grid-large uk-flex-center" uk-grid>
                             <div class="uk-width-auto">
-                                <img class="uk-border-circle" width="40" height="40" src="images/sample-logo.png">
-                            </div>
-                            <div class="uk-width-expand" style="text-align: left">
-                                <h3 class="uk-card-title uk-margin-remove-bottom">Cebu Sinulog PH</h3>
-                                <!-- organization date established -->
-                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                                <div class="uk-border-circle" width="50" height="50" style="background: #191A1E; margin-top:20px">
+                                    <i class="fa fa-users" style="font-size:50px; color: #14976B;"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="uk-card-media-top">
-                        <img src="images/helping-hand.jpeg" alt="">
+                    <div class="uk-width-expand" style="text-align: center;">
+                        <h3 class="uk-card-title uk-margin-remove-bottom" style="color:white; font-family: Montserrat; font-weight: bold;
+                        font-size: 28px; margin-top:20px;">Community Services</h3>
                     </div>
+
                     <div class="uk-card-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.</p>
                     </div>
-                    <div class="uk-card-footer">
-                        <a href="{{ route('org-profile') }}" class="uk-button uk-button-text">Visit Organization</a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-header">
-                        <div class="uk-grid-small uk-flex-middle" uk-grid>
-                            <div class="uk-width-auto">
-                                <img class="uk-border-circle" width="40" height="40" src="images/sample-logo.png">
+                </div><!--uk-card-->
+            </div><!--left--->
+
+            <div> <!--middle card-->
+                <div class="uk-card uk-card-default" style="background: #222427; color:white; border-bottom: 4px solid #14976B;">
+                        <div class="uk-card-header" style="border:none;">
+                            <div class="uk-grid-large uk-flex-center" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="uk-border-circle" width="150" height="150" style="background: #191A1E; margin-top:20px">
+                                        <i class="fa fa-archive" style="font-size:50px; color: #14976B;"></i>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="uk-width-expand" style="text-align: left">
-                                <h3 class="uk-card-title uk-margin-remove-bottom">Cebu Sinulog PH</h3>
-                                <!-- organization date established -->
-                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                        </div>
+                        <div class="uk-width-expand" style="text-align: center;">
+                            <h3 class="uk-card-title uk-margin-remove-bottom" style="color:white; font-family: Montserrat; font-weight: bold;
+                             font-size: 28px; margin-top:20px;">Donation Drives</h3>
+                        </div>
+
+                        <div class="uk-card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.</p>
+                        </div>
+                    </div><!--uk-card-->
+            </div><!--mid-->
+
+            <div> <!---right card-->
+                <div class="uk-card uk-card-default" style="background: #222427; color:white; border-bottom: 4px solid #14976B;">
+                    <div class="uk-card-header" style="border:none;">
+                        <div class="uk-grid-large uk-flex-center" uk-grid>
+                            <div class="uk-width-auto">
+                                <div class="uk-border-circle" style="background: #191A1E; margin-top:20px">
+                                    <i class="fa fa-credit-card-alt" style="font-size:50px; color: #14976B;"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="uk-card-media-top">
-                        <img src="images/helping-hand.jpeg" alt="">
+                    <div class="uk-width-expand" style="text-align: center;">
+                        <h3 class="uk-card-title what-we-do uk-margin-remove-bottom" style="color:white; font-family: Montserrat; font-weight: bold;
+                         font-size: 28px; margin-top:20px;">Funds Management</h3>
                     </div>
+
                     <div class="uk-card-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.</p>
                     </div>
-                    <div class="uk-card-footer">
-                        <a href="{{ route('org-profile') }}" class="uk-button uk-button-text">Visit Organization</a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-header">
-                        <div class="uk-grid-small uk-flex-middle" uk-grid>
-                            <div class="uk-width-auto">
-                                <img class="uk-border-circle" width="40" height="40" src="images/sample-logo.png">
-                            </div>
-                            <div class="uk-width-expand" style="text-align: left">
-                                <h3 class="uk-card-title uk-margin-remove-bottom">Cebu Sinulog PH</h3>
-                                <!-- organization date established -->
-                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="uk-card-media-top">
-                        <img src="images/helping-hand.jpeg" alt="">
-                    </div>
-                    <div class="uk-card-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    </div>
-                    <div class="uk-card-footer">
-                        <a href="{{ route('org-profile') }}" class="uk-button uk-button-text">Visit Organization</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+                </div><!--uk-card-->
+            </div><!--right-->
+        </div><!---formore-->
         <br>
-    </div>
+    </div><!--uk-width-expand-->
+</div><!--container-->
 
-<section class="sec2">
-    <h1>What We Do</h1>
 
-        <div class="container container-left">
-            <div class="elipse">
-                <i class="fa fa-users"  style="font-size:40px; color: #14976B;"></i>
-            </div>
-            
-            <h2>Community Services</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.</p>
-        
-        </div>
 
-        <div class="container container-mid"> <div class="elipse">
-                <i class="fa fa-archive" style="font-size:40px; color: #14976B;"></i>
-            </div>
-            
-            <h2>Donation Drives</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.</p>
-        
-        </div>
 
-        <div class="container container-right"> 
-            <div class="elipse">  
-                <i class="fa fa-credit-card-alt" style="font-size:40px; color: #14976B;"></i>
-            </div>
-            
-            <h2>Funds Management</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.</p>
-        
-        </div>
-</section>
 
-<section class="sec3">
 
-<h1>Stories</h1>
-    <div class="containerStories container-left">
-        <div class="storyPic">
-            <img src="{{asset('images/fundraiser.jpg')}}"/>
-        </div>
-        <h2>Fundraising Events</h2>
-        <div class="StoriesLine"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.<br><br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
-        </p>
-        <button class="button button-readmore" onclick="window.location.href='{{ route('index') }}'">Read More...</button>
-    </div>
-        
-    <div class="containerStories container-mid">
-        <div class="storyPic">
-            <img src="{{asset('images/donorRecepient.jpg')}}"/>
-        </div>
-        <h2>Donor and Recipient Moments</h2>
-        <div class="StoriesLine"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.<br><br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
-        </p>
-        <button class="button button-readmore" onclick="window.location.href='{{ route('index') }}'">Read More...</button>
-    </div>
 
-    <div class="containerStories container-right">
-    <div class="storyPic">
-            <img src="{{asset('images/donate.jpg')}}"/>
-        </div>
-        <h2>#RollyPH Donation Drive</h2>
-        <div class="StoriesLine"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.<br><br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
-        </p>
-        <button class="button button-readmore" onclick="window.location.href='{{ route('index') }}'">Read More...</button>
-    </div>
 
-</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="uk-container">
+    <!---STORIES--->
+    <div class="uk-width-expand" style="text-align: center;">
+        <h1 class="uk-card-title uk-margin-remove-bottom uk-margin-xlarge-top" style="color:white; font-family: Montserrat; 
+        font-weight: bold; font-size: 60px; ">Stories</h1>
+    
+        <div id="forMore" class="uk-child-width-1-3@m uk-text-center uk-margin-large-top" uk-grid>
+            <div><!--left-card-->
+                <div class="uk-card uk-card-default" style="background: #222427; color:white; margin-top: 145px;">
+                    <div class="uk-card-media-top">
+                        <img src="images/helping-hand.jpeg" width="340px;" height="290px;" style="margin-top: -145px" alt="">
+                    </div>
+                    <div class="uk-width-expand" style="text-align: center;">
+                        <h3 class="uk-card-title" style="color:white; font-family: Montserrat; font-weight: bold;
+                        font-size: 28px; margin-top:40px;">Fundraising Events</h3>
+                    </div>
+                    <div class="uk-flex-inline uk-flex-center uk-margin-small-top" style="height:1px; width:130px; background:#14976B"></div>
+                       
+                    <div class="uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.<br><br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.</p>
+                    </div>
+                    
+                    <button class="uk-button uk-button-large uk-text-capitalize uk-margin-medium-bottom" onclick="window.location.href='{{ route('index') }}'"
+                    style="border: 1px solid #14976B; font-size: 18px; width:220px; color: #14976B; background:none;">Read More...</button>
+                </div><!--uk-card-->
+            </div><!--left--->
+
+            <div> <!--middle card-->
+                <div class="uk-card uk-card-default" style="background: #222427; color:white; margin-top: 145px;">
+                    <div class="uk-card-media-top">
+                        <img src="images/helping-hand.jpeg" width="340px;" height="290px;" style="margin-top: -145px" alt="">
+                    </div>
+                    <div class="uk-width-expand" style="text-align: center;">
+                        <h3 class="uk-card-title" style="color:white; font-family: Montserrat; font-weight: bold;
+                        font-size: 28px; margin-top:40px;">Donor and Recipient</h3>
+                    </div>
+                    <div class="uk-flex-inline uk-flex-center uk-margin-small-top" style="height:1px; width:130px; background:#14976B"></div>
+                        
+                    <div class="uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.<br><br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.</p>
+                    </div>
+                    
+                    <button class="uk-button uk-button-large uk-text-capitalize uk-margin-medium-bottom" onclick="window.location.href='{{ route('index') }}'"
+                    style="border: 1px solid #14976B; font-size: 18px; width:220px; color: #14976B; background:none;">Read More...</button>
+                </div><!--uk-card-->
+            </div><!--mid-->
+
+            <div> <!---right card-->
+                <div class="uk-card uk-card-default" style="background: #222427; color:white; margin-top: 145px;">
+                    <div class="uk-card-media-top">
+                        <img src="images/helping-hand.jpeg" width="340px;" height="290px;" style="margin-top: -145px" alt="">
+                    </div>
+                    <div class="uk-width-expand" style="text-align: center;">
+                        <h3 class="uk-card-title" style="color:white; font-family: Montserrat; font-weight: bold;
+                        font-size: 28px; margin-top:40px;">#RollyPH Donation Drive</h3>
+                    </div>
+                    <div class="uk-flex-inline uk-flex-center uk-margin-small-top" style="height:1px; width:130px; background:#14976B"></div>
+                        
+                    <div class="uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.<br><br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique.</p>
+                    </div>
+                    
+                    <button class="uk-button uk-button-large uk-text-capitalize uk-margin-medium-bottom" onclick="window.location.href='{{ route('index') }}'"
+                    style="border: 1px solid #14976B; font-size: 18px; width:220px; color: #14976B; background:none;">Read More...</button>
+                </div><!--uk-card-->
+            </div><!--right-->
+        </div><!---formore-->
+        <br>
+    </div><!--uk-width-expand-->
+</div><!--container-->
+
 
 
 @endsection
