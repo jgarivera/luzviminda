@@ -29,6 +29,10 @@ Route::get('/org-profile', function () {
     return view('pages.orgprofile');
 })->name('org-profile');
 
+Route::get('/testorg', function () {
+    return view('pages.testorg');
+})->name('testorg');
+
 /** Resilient PH donation form Routes */
 
 Route::get('/donation-form1-resilientph', function () {
