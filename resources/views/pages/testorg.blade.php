@@ -7,7 +7,7 @@
 @endsection
 
 @section('body')
-<!--
+
 <section class="sec1">
     <div class="orgcolor"></div> 
     <div class="heading"> 
@@ -26,7 +26,7 @@
         <button class="button-donatenow" onclick="window.location.href='{{ route('donation-form1-resilientph') }}'">Donate Now!</button>
         
     </div><!--heading-->
-<!--
+<
     <div class="containerIMG">
        <img src="{{asset('images/volunteers.jpg')}}"/>
     </div> 
@@ -37,7 +37,7 @@
         </div>
     </div> 
 </section>
--->
+
 
 <div class="uk-container">
     <!---WHAT WE DO-->
@@ -113,36 +113,9 @@
         </div><!---formore-->
         <br>
     </div><!--uk-width-expand-->
-</div><!--container-->
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="uk-container">
     <!---STORIES--->
     <div class="uk-width-expand" style="text-align: center;">
         <h1 class="uk-card-title uk-margin-remove-bottom uk-margin-xlarge-top" style="color:white; font-family: Montserrat; 
@@ -221,7 +194,5 @@
         <br>
     </div><!--uk-width-expand-->
 </div><!--container-->
-
-
 
 @endsection
