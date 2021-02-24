@@ -61,6 +61,6 @@
         
         <!-- https://help.twitter.com/en/using-twitter/how-to-embed-a-tweet -->
 
-        <a href="{{ route('dashboard.index') }}" class="dash">Go to Dashboard</a>
+        <a href="{{ route('login') }}" class="dash">Go to Dashboard</a>
     </div>
 @endsection
