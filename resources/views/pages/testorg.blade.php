@@ -150,10 +150,12 @@
     
         <div id="forMore" class="uk-child-width-1-3@m uk-text-center uk-margin-large-top" uk-grid>
             <div><!--left-card-->
-                <div class="uk-card uk-card-default" style="background: #222427; color:white; margin-top: 145px;">
-                    <div class="uk-card-media-top">
-                        <img src="images/helping-hand.jpeg" width="340px;" height="290px;" style="margin-top: -145px" alt="">
+                <div class="uk-card uk-card-default" style="background: #222427; color:white;">
+                    
+                    <div class="uk-card-media-top uk-margin-small-top" style="margin:auto auto; margin-top:20xp; height:290px;">
+                        <img src="images/fundraiser.jpg" style="object-fit:cover; min-width: 100%; height:100%;" alt="">
                     </div>
+                    
                     <div class="uk-width-expand" style="text-align: center;">
                         <h3 class="uk-card-title" style="color:white; font-family: Montserrat; font-weight: bold;
                         font-size: 28px; margin-top:40px;">Fundraising Events</h3>
@@ -172,10 +174,11 @@
             </div><!--left--->
 
             <div> <!--middle card-->
-                <div class="uk-card uk-card-default" style="background: #222427; color:white; margin-top: 145px;">
-                    <div class="uk-card-media-top">
-                        <img src="images/helping-hand.jpeg" width="340px;" height="290px;" style="margin-top: -145px" alt="">
+                <div class="uk-card uk-card-default" style="background: #222427; color:white;">
+                    <div class="uk-card-media-top uk-margin-small-top" style="margin:auto auto; margin-top:20xp; height:290px;">
+                        <img src="images/donorRecepient.jpg" style="object-fit:cover; min-width: 100%; height:100%;" alt="">
                     </div>
+                    
                     <div class="uk-width-expand" style="text-align: center;">
                         <h3 class="uk-card-title" style="color:white; font-family: Montserrat; font-weight: bold;
                         font-size: 28px; margin-top:40px;">Donor and Recipient</h3>
@@ -194,9 +197,9 @@
             </div><!--mid-->
 
             <div> <!---right card-->
-                <div class="uk-card uk-card-default" style="background: #222427; color:white; margin-top: 145px;">
-                    <div class="uk-card-media-top">
-                        <img src="images/helping-hand.jpeg" width="340px;" height="290px;" style="margin-top: -145px" alt="">
+                <div class="uk-card uk-card-default" style="background: #222427; color:white; ">
+                    <div class="uk-card-media-top uk-margin-small-top" style="margin:auto auto; margin-top:20xp; height:290px;">
+                        <img src="images/donate.jpg" style="object-fit:cover; min-width: 100%; height:100%;" alt="">
                     </div>
                     <div class="uk-width-expand" style="text-align: center;">
                         <h3 class="uk-card-title" style="color:white; font-family: Montserrat; font-weight: bold;
