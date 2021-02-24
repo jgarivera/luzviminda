@@ -9,26 +9,27 @@
 @section('body')
 
 <section class="sec1">
-    <div class="orgcolor"></div> 
-    <div class="heading"> 
-        <button class="button-back" onclick="window.location.href='{{ route('partner-orgs') }}'">
-            <i class="fa fa-arrow-left" style="font-size:15 px;"></i> Back 
-        </button>
-        
+    <div class="orgcolor">
+        <div class="heading"> 
+            <button class="button-back" onclick="window.location.href='{{ route('partner-orgs') }}'">
+                <i class="fa fa-arrow-left" style="font-size:15 px;"></i> Back 
+            </button>
+            
 
-        <h1>Resilient PH</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. 
-        <br><br>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper.
-        Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. </p>
+            <h1>Resilient PH</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. 
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper.
+            Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. </p>
 
-        <button class="button-donatenow" onclick="window.location.href='{{ route('donation-form1-resilientph') }}'">Donate Now!</button>
-        
-    </div><!--heading-->
-<
+            <button class="button-donatenow" onclick="window.location.href='{{ route('donation-form1-resilientph') }}'">Donate Now!</button>
+            
+        </div><!--heading-->
+    </div> <!--Org Color--->
+
     <div class="containerIMG">
-       <img src="{{asset('images/volunteers.jpg')}}"/>
+    <img src="{{asset('images/volunteers.jpg')}}"/>
     </div> 
 
     <div class="overlay1">
