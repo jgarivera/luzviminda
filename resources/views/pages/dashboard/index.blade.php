@@ -28,13 +28,12 @@
             border-radius: 3px;
         }
     </style>        
-    <link rel="stylesheet" href="{{ asset('css/map.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/dashboard/map.css') }}">
     <link rel="stylesheet" href="{{ asset('css/dashboard/home.css') }}">
 @endsection
 
 @section('body')
     <!-- Map container -->
-
     <div class="map-container">
 
         <div id="map"></div>
@@ -53,6 +52,7 @@
             </div>
         </div>
     </div>
+
     <!-- Statistics -->
     <div class="statistics">
         <h2>Statistics</h2>

@@ -1,9 +1,34 @@
 h1 {
     color: #fff;
+    text-align: center;
+    margin-bottom: 1em;
 }
 
 .center-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2em;
+}
+
+.dash {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 32px;
+    width: 200px;
+}
+
+.dash:hover {
+    text-decoration: none;
+}
+
+.twitter-tweet {
+    margin-top: 0 !important; /* Override twitter's style... */
 }
