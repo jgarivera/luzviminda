@@ -1,0 +1,53 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+    
+/* Attempted to make form card animated ease-in but failed */
+
+    .uk-card {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 30px;
+        position: absolute;
+        margin-left: 80%;
+        padding: 35px;
+        width: 20%;
+        height: 82%;
+    }
+    
+    .uk-card-title {
+        text-align: center;
+    }
+
+    .uk-form-label {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 43px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    .form-btns {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 43px;
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 15px;
+        border-top: 1px solid #333a61;
+        border-left: 1px solid #f5f5f5;
+        border-right: 1px solid #dc2727;
+        border-bottom: 1px solid #f8b20c;
+    }
+
+    .uk-input {
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        box-sizing: border-box;
+        border-radius: 15px;
+        font-size: 14px;
+    }

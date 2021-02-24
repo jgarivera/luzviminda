@@ -57,6 +57,13 @@ Route::get('/donation-confirm-jci-cebu-sinulog', function () {
     return view('pages.forms.JCI_Cebu_Sinulog.confirmationpagejcicebusinulog');
 })->name('donation-confirm-jci-cebu-sinulog');
 
+/** Login form Route */
+
+Route::get('/login', function () {
+    return view('pages.testforms');
+})->name('login');
+
+
 /** Dashboard Routes */
 
 Route::prefix('dashboard')->group(function () {

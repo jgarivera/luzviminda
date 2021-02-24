@@ -1,0 +1,48 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+    
+/* Attempted to make form card transparent but failed */
+
+    .uk-card {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 35px;
+        line-height: 30px;
+        position: absolute;
+        left: 25%;
+        padding: 35px;
+        height: 500px;
+    }
+    
+    .uk-card-title {
+        text-align: center;
+    }
+
+    .uk-form-label {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 43px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    .form-btns {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 43px;
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 15px;
+    }
+
+    .uk-input {
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        box-sizing: border-box;
+        border-radius: 15px;
+        font-size: 14px;
+    }
