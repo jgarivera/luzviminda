@@ -8,60 +8,13 @@
     <!-- Load scripts -->
     <script src="js/map.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    
+    <link href="{{ asset('css/map.css') }}" rel="stylesheet"/>
+    
     <style>
-        body {
-            margin: 0;
-        }
-
         #map {
             height: 600px;
             width: 90vw;
-        }
-    </style>
-
-    <style>
-        .map-overlay {
-            font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-            position: absolute;
-            width: 200px;
-            top: 100px;
-            left: 50px;
-            padding: 10px;
-        }
-
-        .map-overlay .map-overlay-inner {
-            background-color: #fff;
-            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-            border-radius: 3px;
-            padding: 20px;
-            margin-bottom: 10px;
-            width: 250px;
-        }
-        #ov-province{
-            margin-top: -20px;
-            font-weight: bold;
-        }
-        #ov-municity{
-            text-decoration: underline;
-            margin-top: -20px;
-        }
-        #ov-gradient{
-            width: 150px;
-            margin-top: -10px;
-            height: 10px;
-            background-image: linear-gradient(to right, #dc2727, #f8b20c, #48e74f);
-        }
-        .ov-essinfo{
-            text-indent: 20px;
-        }
-        #donoamount, #affected{
-            margin-top: -20px;
-        }
-        #donodrive, #donoamount, #affected{
-            font-size: medium;
-        }
-        #donodrive{
-            margin-top: 10px;
         }
     </style>
 @endsection
