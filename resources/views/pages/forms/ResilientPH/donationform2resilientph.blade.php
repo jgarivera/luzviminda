@@ -2,13 +2,13 @@
 
 @section('head')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ asset('css/donationforms.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/forms/donationforms.css') }}">
     <title>Donation Form</title>
 @endsection
 
 @section('body')
 
-<div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m" style="border-bottom: 3px solid #14976B;>
+<div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m" style="border-bottom: 3px solid #14976B;">
 <center><img src="{{ asset('images/resilient ph logo.png') }}" style="width:250px;" /></center>
     <h3 class="uk-card-title">You chose to donate to Resilient PH</h3>
 
