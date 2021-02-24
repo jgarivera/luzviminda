@@ -30,6 +30,11 @@
         <div class="uk-form-controls">
             <input class="uk-input" id="form-horizontal-text" type="text">
         </div>
+
+        <label class="uk-form-label" for="form-horizontal-text">Contact Number:*</label>
+        <div class="uk-form-controls">
+            <input class="uk-input" id="form-horizontal-text" type="text">
+        </div>
         
         <label class="uk-form-label" for="form-horizontal-text">City:*</label>
         <div class="uk-form-controls">
