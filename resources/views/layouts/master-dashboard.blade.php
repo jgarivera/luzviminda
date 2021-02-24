@@ -53,6 +53,9 @@
                         @endif
                         <a href="{{ route('dashboard.org-page-editor') }}"class="nav-link">Editor</a>
                     </li>
+                    <li>
+                        <a href="{{ route('index') }}"class="nav-link">Logout</a>
+                    </li>
                 </ul>
 
                 <hr class="side-nav-hr">

@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('pages.index');
 })->name('index');
 
-Route::get('/map', function () {
-    return view('pages.map');
-})->name('map');
-
 Route::get('/partner-orgs', function () {
     return view('pages.partnerorg');
 })->name('partner-orgs');

@@ -32,21 +32,6 @@ body {
     padding: 1em;
 }
 
-.dash {
-    background-color: white;
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 20px;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 32px;
-    width: 200px;
-}
-
 .links {
     margin-left: 60%;
 }
