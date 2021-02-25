@@ -25,7 +25,7 @@
         that government should be of laws rather than of men, that Earth's greatest treasure lies in human personality,
         and that service to humanity is the best work of life. -C. william Brownfield, 1946</p>
 
-        <button class="button-donatenow" onclick="window.location.href='{{ route('donation-form1-resilientph') }}'">Donate Now!</button>
+        <button class="button-donatenow" onclick="window.location.href='{{ route('donation-form1-jci-cebu-sinulog') }}'">Donate Now!</button>
         
     </div><!--heading-->
 
