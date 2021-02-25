@@ -39,6 +39,13 @@
         border-radius: 15px;
     }
 
+    .form-btns:hover {
+        border-top: 1px solid #333a61;
+        border-left: 1px solid #f5f5f5;
+        border-right: 1px solid #dc2727;
+        border-bottom: 1px solid #f8b20c;
+    }
+
     .uk-input {
         border: 1px solid rgba(255, 255, 255, 0.8);
         box-sizing: border-box;
