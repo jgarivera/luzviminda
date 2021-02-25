@@ -76,7 +76,7 @@ Route::prefix('dashboard')->group(function () {
     })->name('dashboard.index');
 
     Route::get('/records', function () {
-        return view('pages.dashboard.index');
+        return view('pages.dashboard.records');
     })->name('dashboard.records-manager');
 
     Route::get('/page-editor', function () {
