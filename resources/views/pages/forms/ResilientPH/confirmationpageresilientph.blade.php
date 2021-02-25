@@ -28,14 +28,14 @@
                 <h3 class="uk-card-title">Learn more about ResilientPH donation drives here</h3>
                 <img src="{{ asset('images/resilient ph logo.png') }}" style="width:180px;"/>
                 <div class="uk-card-footer">
-                    <a href="orgprofile" class="form-btns">Go to Page</a>
+                    <a href="{{ route('org-profile') }}" class="form-btns">Go to Page</a>
                 </div>
             </div>
             <div class="uk-card uk-card-secondary">
                 <h3 class="uk-card-title">Learn more about other Partner Organizations here</h3>
                 <img src="{{ asset('images/volunteers.jpg') }}" style="width:240px;"/>
                 <div class="uk-card-footer">
-                    <a href="partnerorg" class="form-btns">Go to Page</a>
+                    <a href="{{ route('partner-orgs') }}" class="form-btns">Go to Page</a>
                 </div>
             </div>
 
@@ -43,7 +43,7 @@
                 <h3 class="uk-card-title">Learn more about building Disaster Resiliency here</h3>
                 <img src="{{ asset('images/NDRM.png') }}" style="width:180px;"/>
                 <div class="uk-card-footer">
-                    <a href="/" class="form-btns">Go to Page</a>
+                    <a href="{{ route('index') }}" class="form-btns">Go to Page</a>
                 </div>
             </div>
 
