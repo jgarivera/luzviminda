@@ -5,8 +5,8 @@
     
     <!-- Please check other login form styles -->
     <!-- <link rel="stylesheet" href="{{ asset('css/forms/wireframe1stylemain.css') }}"> --> <!-- Personal Preference -->
-    <!-- <link rel="stylesheet" href="{{ asset('css/forms/wireframe1style2.css') }}">  -->
-    <link rel="stylesheet" href="{{ asset('css/forms/wireframe2stylemain.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/forms/wireframe1style2.css') }}">
+    <!-- <link rel="stylesheet" href="{{ asset('css/forms/wireframe2stylemain.css') }}"> -->
     
     <title>Login</title>
 @endsection
