@@ -29,7 +29,7 @@
 
         <label class="uk-form-label" for="form-horizontal-text">Password:</label>
         <div class="uk-form-controls">
-            <input class="uk-input" id="form-horizontal-text" type="text">
+            <input class="uk-input" id="form-horizontal-text" type="password">
         </div>
         
         </div>
