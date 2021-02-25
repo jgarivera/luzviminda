@@ -16,11 +16,22 @@
     <body class="uk-height-viewport">
         <nav class="nav uk-navbar" id="navbar" data-uk-navbar="">
             <div class="uk-navbar-left">
-                <a class="uk-navbar-item uk-logo nav-link" href="{{ route('index') }}"><img class="nav-logo" src="{{ asset("images/Luz-Logo.png") }}" />Luzviminda</a>
+                <a class="uk-navbar-item uk-logo nav-link" href="{{ route('index') }}"><img class="nav-logo" src="{{ asset("images/Luz-Logo.png") }}" />LuzViMinda</a>
             </div>
 
             <div class="uk-navbar-right nav-right">
-                <a class="nav-link" href="#offcanvas-usage" uk-toggle>OPEN THE SIDENAV</a>
+                <a class="nav-link" href="#offcanvas-usage" uk-toggle>
+                    <span class="profile-tag"><<
+                        @if(Route::current()->getName() === 'dashboard.index')
+                            Dashboard
+                        @elseif(Route::current()->getName() === 'dashboard.records-manager')
+                            Records Manager
+                        @elseif(Route::current()->getName() === 'dashboard.org-page-editor')
+                            Page Editor
+                        @endif
+                    </span>
+                    <img class="profile-img" src="{{ asset('images/jci-logo.jpg')}}">
+                </a>
             </div>
         </nav>
 

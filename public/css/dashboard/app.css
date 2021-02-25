@@ -115,3 +115,19 @@ body {
     height: 50px;
     margin-right: 10px;
 }
+
+.profile-tag {
+    margin-right: 1em;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.profile-img {
+    width: 64px;
+    border-radius: 100%;
+    margin-right: 0.5em;
+}
+
+.profile-img:hover {
+    box-shadow: 0 0 0 4px #14976B; /* Border style that doesn't interfere with the img width/height, cool */
+}

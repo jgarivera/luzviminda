@@ -16,7 +16,7 @@
     <body class="uk-height-viewport">
         <nav class="uk-navbar nav" data-uk-navbar="">
             <div class="uk-navbar-left">
-                <a class="uk-navbar-item uk-logo nav-link" href="{{ route('index') }}"><img class="nav-logo" src="{{ asset("images/Luz-Logo.png") }}" />Luzviminda</a>
+                <a class="uk-navbar-item uk-logo nav-link" href="{{ route('index') }}"><img class="nav-logo" src="{{ asset("images/Luz-Logo.png") }}" />LuzViMinda</a>
             </div>
             
             <div class="uk-navbar-right nav-right">
