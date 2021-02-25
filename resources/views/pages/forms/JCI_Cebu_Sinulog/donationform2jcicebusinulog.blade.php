@@ -8,11 +8,11 @@
 
 @section('body')
 
-<div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m" style="border-bottom: 3px solid #0097d8;">
+<div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m" style="border-bottom: 3px solid #b47024;">
 <center><img src="{{ asset('images/jci-logo.jpg') }}" style="width:250px; border-radius: 50%;" /></center>
     <h3 class="uk-card-title">You chose to donate to JCI Cebu Sinulog</h3>
 
-    <center><div class="line" style="border-bottom: 3px solid #0097d8"> </div></center>
+    <center><div class="line" style="border-bottom: 3px solid #b47024;"> </div></center>
 
     <form style="padding: 20px;">
     <fieldset class="uk-fieldset">
@@ -49,7 +49,7 @@
         <label class="uk-form-label" for="form-horizontal-select">Message to Organization:</label>
             <textarea class="uk-textarea" rows="5" placeholder="Write message here"></textarea>
 
-        <center><div class="line" style="border-bottom: 3px solid #0097d8;"> </div></center>
+        <center><div class="line" style="border-bottom: 3px solid #b47024;"> </div></center>
 
         <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
             <label class="agreement"><input class="uk-checkbox" type="checkbox">  I permit LuzViMinda services and the organization of my choice to have access to the given information upon Agreement of Terms and Conditions.*</label>
