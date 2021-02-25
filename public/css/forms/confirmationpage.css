@@ -12,7 +12,7 @@
         flex-direction: column;
     }
 
-    .uk-card {
+    .uk-card uk-card-secondary{
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
@@ -40,4 +40,8 @@
         width: 70px;
         height: 70px;
         background-color: #14976B;
+    }
+
+    .uk-card-footer {
+        margin-bottom: 90%;
     }
