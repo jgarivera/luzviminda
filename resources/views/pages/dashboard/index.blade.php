@@ -68,6 +68,12 @@
                     <canvas id="affectedPeopleChart"></canvas>
                 </div>
             </div>
+
+            <div class="column">
+                <div class="chart-container">
+                    <canvas id="recoveriesChart"></canvas>
+                </div>
+            </div>
         </div>
     </div>
 @endsection
