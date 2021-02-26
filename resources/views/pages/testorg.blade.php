@@ -2,43 +2,52 @@
 
 @section('head')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ asset('css/orgprofile.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/testorg.css') }}">
     <title>Organization Profile</title>
 @endsection
 
 @section('body')
 
-<section class="sec1">
-    <div class="orgcolor">
-        <div class="heading"> 
-            <button class="button-back" onclick="window.location.href='{{ route('partner-orgs') }}'">
-                <i class="fa fa-arrow-left" style="font-size:15 px;"></i> Back 
-            </button>
-            
+<div class="uk-container">
+    <div class="uk-width-expand">
+        <div id="forMore" class="uk-child-width-1-2@m uk-margin-large-top uk-grid-collapse" uk-grid>
+            <div> <!--orgcolor left card-->
+                <div class="orgcolor uk-card">    
+                    <div class="uk-card-header uk-height-match">
+                        <button class="button-back" onclick="window.location.href='{{ route('partner-orgs') }}'">
+                            <i class="fa fa-arrow-left" style="font-size:15 px;"></i> Back 
+                        </button>
+                        
+                        <div class="uk-width-expand">
+                            <h3 class="uk-card-title" style="color:white; font-family: Montserrat; font-size: 50px; 
+                            margin-top:30px;">Resilient PH</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="info uk-card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. 
+                        <br><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper.
+                        Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. </p>
+                        
+                        <button class="uk-button uk-button-large uk-text-capitalize" onclick="window.location.href='{{ route('donation-form1-resilientph') }}'"
+                        style="border: 1px solid #FFFFFF; font-size: 18px; width:220px; color: #FFFFFF; background:none;">Donate Now</button>
+                    </div>  
+                </div> <!--Org Color--->
+            </div> <!---org color left card--->
 
-            <h1>Resilient PH</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. 
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros tincidunt congue tristique. Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper.
-            Sed sodales euismod metus, blandit finibus dolor tincidunt a. Curabitur rhoncus orci nec rhoncus semper. </p>
-
-            <button class="button-donatenow" onclick="window.location.href='{{ route('donation-form1-resilientph') }}'">Donate Now!</button>
-            
-        </div><!--heading-->
-    </div> <!--Org Color--->
-
-    <div class="containerIMG">
-    <img src="{{asset('images/volunteers.jpg')}}"/>
-    </div> 
-
-    <div class="overlay1">
-        <div class="logo">
-            <img src="{{ asset('images/resilient ph logo.png') }}" />
-        </div>
-    </div> 
-</section>
-
+            <div>
+                <div class="uk-inline uk-light" style="margin:auto auto; height:625px;">
+                    <img src="images/volunteers.jpg" style="object-fit:cover; min-width: 100%; height:100%;" alt="">
+                    <div class="uk-position-center overlay1">
+                        <span uk-overlay-icon logo><img src="{{ asset('images/resilient ph logo.png') }}" /></span>
+                    </div>
+                </div>
+            </div>   <!--pic and logo right card-->
+        </div> <!--formore-->
+    </div><!--uk-width-expand-->
+</div><!--uk-container-->
 
 <div class="uk-container">
     <!---WHAT WE DO-->
@@ -57,6 +66,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="uk-width-expand" style="text-align: center;">
                         <h3 class="uk-card-title uk-margin-remove-bottom" style="color:white; font-family: Montserrat; font-weight: bold;
                         font-size: 28px; margin-top:20px;">Community Services</h3>
