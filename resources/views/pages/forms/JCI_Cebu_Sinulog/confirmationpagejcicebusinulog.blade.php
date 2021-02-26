@@ -1,3 +1,4 @@
+
 @extends('layouts.master')
 
 @section('head')
@@ -19,35 +20,31 @@
     </div>
 </div>
 
-<div class="uk-section">
-    <div class="uk-container">
+<section class="sec2">
+    <h1>Other Pages</h1>
 
-        <h1 style="color:white;text-align:center">Other Pages</h1>
-        <div class="uk-child-width-expand@s uk-text-center" uk-grid>
-        <div class="uk-card uk-card-secondary">
-                <h3 class="uk-card-title">Learn more about JCI Cebu Sinulog donation drives here</h3>
-                <img src="{{ asset('images/jci-logo.jpg') }}" style="width:180px;"/>
-                <div class="uk-card-footer">
-                    <a href="{{ route('JCI-Cebu-Sinulog') }}" class="form-btns">Go to Page</a>
-                </div>
+        <div class="container container-left">
+            <div class="elipse">
+                <i class="fa fa-archive"></i>
             </div>
-            <div class="uk-card uk-card-secondary">
-                <h3 class="uk-card-title">Learn more about other Partner Organizations here</h3>
-                <img src="{{ asset('images/volunteers.jpg') }}" style="width:240px;"/>
-                <div class="uk-card-footer">
-                    <a href="{{ route('partner-orgs') }}" class="form-btns">Go to Page</a>
-                </div>
-            </div>
-
-            <div class="uk-card uk-card-secondary">
-                <h3 class="uk-card-title">Learn more about building Disaster Resiliency here</h3>
-                <img src="{{ asset('images/NDRM.png') }}" style="width:180px;"/>
-                <div class="uk-card-footer">
-                    <a href="{{ route('index') }}" class="form-btns">Go to Page</a>
-                </div>
-            </div>
+            <h2>Learn more about JCI Cebu Sinulog donation drives here</h2>
+            <button class="button button-readmore" onclick="window.location.href='{{ route('JCI-Cebu-Sinulog') }}'">Go to Page</button>
         </div>
-    </div>
-</div>
 
+        <div class="container container-mid">
+            <div class="elipse">
+                <i class="fa fa-users"></i>
+            </div>
+            <h2>Learn more about other Partner Organizations here</h2>
+            <button class="button button-readmore" onclick="window.location.href='{{ route('partner-orgs') }}'">Go to Page</button>
+        </div>
+
+        <div class="container container-right"> 
+            <div class="elipse">  
+                <i class="fa fa-building"></i>
+            </div>
+            <h2>Learn more about building Disaster Resiliency here</h2>
+            <button class="button button-readmore" onclick="window.location.href='{{ route('index') }}'">Go to Page</button>
+        </div>
+</section>
 @endsection
