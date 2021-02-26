@@ -2,11 +2,7 @@
 
 @section('head')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <!-- Please check other login form styles -->
-    <!-- <link rel="stylesheet" href="{{ asset('css/forms/wireframe1stylemain.css') }}"> --> <!-- Personal Preference -->
-    <link rel="stylesheet" href="{{ asset('css/forms/wireframe1style2.css') }}">
-    <!-- <link rel="stylesheet" href="{{ asset('css/forms/wireframe2stylemain.css') }}"> -->
+    <link rel="stylesheet" href="{{ asset('css/login.css') }}">
     
     <title>Login</title>
 @endsection
