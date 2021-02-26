@@ -378,7 +378,7 @@
 
     /*************************hover divs*******************/
     h1:hover, h2:hover, p:hover {
-        border: 2px solid rgba(255, 255, 255, 0.8);
+        border: 2px dashed rgba(255, 255, 255, 0.8);
         padding: 10px;
-        cursor: alias;
+        cursor: text;
     }
