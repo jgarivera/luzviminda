@@ -7,6 +7,11 @@
 @endsection
 
 @section('body')
+<!-- <div class="uk-card uk-card-secondary uk-card-body" style="z-index: 980;" uk-sticky="offset: 100;">
+    <h3> JCI Cebu Sinulog's Organization Page </h3>
+    <button class="button button-save" onclick="window.location.href='{{ route('dashboard.org-page-editor') }}'">Save</button>                    
+</div> -->
+
 <section class="sec1">
     <div class="orgcolor" style="background-color: #b47024;"></div> 
     <div class="heading"> 
@@ -115,10 +120,6 @@
 </section>
 
 <section class="sec4">
-    <button class="button button-save" style="border: 1px solid #f8b20c; color: #f8b20c;" onclick="window.location.href='{{ route('dashboard.org-page-editor') }}'">Save</button>
+<button class="button button-save" onclick="window.location.href='{{ route('dashboard.org-page-editor') }}'">Save</button>
 </section>
-
-<script>
-
-    </script>
 @endsection
