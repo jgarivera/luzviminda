@@ -8,7 +8,7 @@
 
 @section('body')
 
-<div class="uk-container">
+<div class="uk-container-expand">
     <div class="uk-width-expand">
         <div id="forMore" class="uk-child-width-1-2@m uk-margin-large-top uk-grid-collapse" uk-grid>
             <div> <!--orgcolor left card-->
