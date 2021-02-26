@@ -36,12 +36,102 @@
         border-radius: 15px;
     }
 
-    .box {
-        width: 70px;
-        height: 70px;
-        background-color: #14976B;
+    .sec2{
+        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        height:600px;
     }
 
-    .uk-card-footer {
-        margin-bottom: 90%;
+    .sec2 h1 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top:60px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 98px;
+
+        color: #FFFFFF;
+    }
+    
+    .container {
+        background: #222427;
+        margin-top:25px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 375px;  
+        height: 385px;
+        border-bottom: 4px solid #f8b20c;
+    }
+
+    .container-left {
+        left: 40px;
+    }
+
+    .container-mid {
+        left: 485px;
+    }
+
+    .container-right {
+        left: 925px;
+    }
+
+    .elipse {
+        position: absolute;
+        margin-top:50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 80px;
+        height: 80px;
+        background: #191A1E;
+        border-radius: 50%;
+    }
+
+    .elipse i{
+        font-size:40px;
+        color: #f8b20c;
+    }
+
+    .container h2{
+        position: absolute;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 160px;
+        color: #FFFFFF;
+    }
+
+    .button-readmore {
+        position: absolute;
+        font-family: Montserrat;
+        width: 220px;
+        height: 50px;
+        top: 300px;
+        border-radius:10px;
+        font-size: 18px;
+        background:none;
+        cursor:pointer;
+        border: 1px solid #f8b20c;
+        color: #f8b20c;
+    }
+
+    .button-readmore:hover {
+        border: 1px solid rgba(255, 255, 255, 1);
+        color: #222427;
+        background:white;
+        transition: all .5s ease;
+        -webkit-transition: all .5s ease;
     }
