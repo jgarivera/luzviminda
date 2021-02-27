@@ -74,7 +74,7 @@
         <div>
             <div class="uk-text-center">
                 <a class="uk-button uk-button-text uk-link-reset uk-text-small toggle-class" style="color: white!important" data-uk-toggle="target: .toggle-class ;animation: uk-animation-fade" aria-expanded="true" style="">N<span class="uk-text-lowercase">o account yet?</span>  </a>
-                <a class="uk-button uk-button-text uk-link-reset uk-text-small toggle-class" data-uk-toggle="target: .toggle-class ;animation: uk-animation-fade"  style="color: white!important" aria-expanded="true" style="" hidden=""><span data-uk-icon="arrow-left" class="uk-icon"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><polyline fill="none" stroke="#000" points="10 14 5 9.5 10 5"></polyline><line fill="none" stroke="#000" x1="16" y1="9.5" x2="5" y2="9.52"></line></svg></span> B<span class="uk-text-lowercase">ack to </span>L <span class="uk-text-lowercase">ogin</span>   </a>
+                <a class="uk-button uk-button-text uk-link-reset uk-text-small toggle-class" data-uk-toggle="target: .toggle-class ;animation: uk-animation-fade"  style="color: white!important" aria-expanded="true" style="" hidden=""><span data-uk-icon="arrow-left" class="uk-icon"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><polyline fill="none" stroke="#000" points="10 14 5 9.5 10 5"></polyline><line fill="none" stroke="#000" x1="16" y1="9.5" x2="5" y2="9.52"></line></svg></span> B<span class="uk-text-lowercase">ack to </span>L<span class="uk-text-lowercase">ogin</span>   </a>
             </div>
         </div>
         <!-- action buttons -->
