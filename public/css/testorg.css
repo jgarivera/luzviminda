@@ -87,6 +87,11 @@
         -webkit-transition: all .5s ease;
     }
 
+    /* steb css */
+    #readMore:hover{
+        color: black;
+        background-color: #f8b20c!important;
+    }
 
 
     
