@@ -63,4 +63,5 @@
 
         <a href="{{ route('login') }}" class="dash">Go to Dashboard</a>
     </div>
+    <br><br>
 @endsection
