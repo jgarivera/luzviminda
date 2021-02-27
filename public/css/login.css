@@ -46,9 +46,19 @@
         border-bottom: 1px solid #f8b20c;
     }
 
-    .uk-input {
+    .uk-input, .uk-select {
         border: 1px solid rgba(255, 255, 255, 0.8);
         box-sizing: border-box;
         border-radius: 15px;
         font-size: 14px;
+    }
+    /** steb **/
+    select:required:invalid {
+        color: #666;
+    }
+    option[value=""][disabled] {
+    display: none;
+    }
+    option {
+        color: #000;
     }
