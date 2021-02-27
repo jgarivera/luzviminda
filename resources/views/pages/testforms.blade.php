@@ -35,7 +35,7 @@
                     <label class="uk-text-small" style="color: white!important"><input class="uk-checkbox" type="checkbox"> Keep me logged in</label>
                 </div>
                 <div class="uk-margin-bottom">
-                    <button type="submit"class="uk-button uk-button-primary uk-border-pill uk-width-1-1">LOG IN</button>
+                    <button type="submit" style="background-color: #48E74F; color: black" class="uk-button uk-button-primary uk-border-pill uk-width-1-1">LOG IN</button>
                 </div>
             </fieldset>
         </form>
@@ -65,7 +65,7 @@
                 <input style="background-color: rgba(0,0,0,0.2); border-color: gray" class="uk-input uk-border-pill" name="birthdate" type="date" placeholder="Birthdate">
             </div>
             <div class="uk-margin-bottom uk-margin-top" style="margin: auto auto; text-align: center">
-                <button type="submit" class="uk-button uk-button-primary uk-border-pill uk-width-1-1" style="background-color: #32d296;color:white">Sign Up</button>
+                <button type="submit" class="uk-button uk-button-primary uk-border-pill uk-width-1-1" style="background-color: #48E74F;color:black">Sign Up</button>
             </div>
         </form>
         <!-- /recover password -->
