@@ -83,21 +83,19 @@
     }
 
     .elipse {
-        position: absolute;
-        margin-top:50px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         text-align: center;
         width: 80px;
         height: 80px;
         background: #191A1E;
         border-radius: 50%;
+        margin: auto auto;
     }
 
     .elipse i{
         font-size:40px;
         color: #f8b20c;
+        margin: auto auto;
+        margin-top: 20px;
     }
 
     .container h2{
@@ -114,24 +112,30 @@
         color: #FFFFFF;
     }
 
-    .button-readmore {
-        position: absolute;
-        font-family: Montserrat;
-        width: 220px;
-        height: 50px;
-        top: 300px;
-        border-radius:10px;
-        font-size: 18px;
-        background:none;
-        cursor:pointer;
+    .gotopage {
         border: 1px solid #f8b20c;
         color: #f8b20c;
+        background-color: rgba(0,0,0,0.0);
     }
 
-    .button-readmore:hover {
+    .gotopage:hover {
         border: 1px solid rgba(255, 255, 255, 1);
         color: #222427;
         background:white;
         transition: all .5s ease;
         -webkit-transition: all .5s ease;
+    }
+
+    #moreOtherPages:hover{
+        color: #f8b20c;
+        transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+    }
+
+    .uk-card{
+        padding: 0px;   
+    }
+    h2{
+        color: white;
+        font-size: 150%;
     }
