@@ -21,17 +21,13 @@ Route::get('/partner-orgs', function () {
     return view('pages.partnerorg');
 })->name('partner-orgs');
 
-Route::get('/org-profile', function () {
-    return view('pages.orgprofile');
-})->name('org-profile');
+Route::get('/resilientPH', function () {
+    return view('pages.resilient');
+})->name('resilientPH');
 
 Route::get('/JCI-Cebu-Sinulog', function () {
     return view('pages.JCIcebusinulog');
 })->name('JCI-Cebu-Sinulog');
-
-Route::get('/testorg', function () {
-    return view('pages.testorg');
-})->name('testorg');
 
 /** Resilient PH donation form Routes */
 

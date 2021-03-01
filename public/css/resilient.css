@@ -10,14 +10,6 @@
 
 
     /*************************SECTION 1*******************/
- 
-
-    .orgcolor{
-        height: 625px;
-        /*width: 674px;*/
-        background-color: #14976B;
-    }
-    
   
     .uk-card-title {
         font-family: Montserrat;
@@ -25,26 +17,7 @@
         font-size: 50px;
         color: #FFFFFF;
         }
-    
-    .info p {
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 25px;
-        text-align: justify;
-        color:white;
-        }
-    
-
-    .overlay1{
-        /*width: 674px;*/
-        height: 625px;
-        background-size: cover;
-        background-color: rgba(0, 0, 0, 0.5);
         
-    }
-
     
     .button-back{
         width: 100px;
