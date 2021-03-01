@@ -18,20 +18,20 @@ var donationChart = new Chart(donationCtx, {
         maintainAspectRatio: false,
         legend: {
             labels: {
-                fontColor: "white",
+                fontColor: "black",
                 fontSize: 18
             }
         },
         scales: {
             xAxes: [{
                 ticks: {
-                    fontColor: "white"
+                    fontColor: "black"
                 }
             }],
             yAxes: [{
                 ticks: {
                     beginAtZero: true,
-                    fontColor: "white",
+                    fontColor: "black",
                     callback: function (value, index, values) {
                         return value.toLocaleString("en-US", { style: "currency", currency: "PHP" });
                     }
@@ -60,20 +60,20 @@ var affectedPeopleChart = new Chart(affectedCtx, {
         maintainAspectRatio: false,
         legend: {
             labels: {
-                fontColor: "white",
+                fontColor: "black",
                 fontSize: 18
             }
         },
         scales: {
             xAxes: [{
                 ticks: {
-                    fontColor: "white"
+                    fontColor: "black"
                 }
             }],
             yAxes: [{
                 ticks: {
                     beginAtZero: true,
-                    fontColor: "white"
+                    fontColor: "black"
                 }
             }]
         }
@@ -99,20 +99,20 @@ var recoveriesChart = new Chart(recoveriesCtx, {
         maintainAspectRatio: false,
         legend: {
             labels: {
-                fontColor: "white",
+                fontColor: "black",
                 fontSize: 18
             }
         },
         scales: {
             xAxes: [{
                 ticks: {
-                    fontColor: "white"
+                    fontColor: "black"
                 }
             }],
             yAxes: [{
                 ticks: {
                     beginAtZero: true,
-                    fontColor: "white",
+                    fontColor: "black",
                     callback: function (value, index, values) {
                         return value.toLocaleString("en-US", { style: "currency", currency: "PHP" });
                     }

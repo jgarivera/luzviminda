@@ -52,28 +52,58 @@
             </div>
         </div>
     </div>
-
-    <!-- Statistics -->
-    <div class="statistics">
-        <h2>Statistics</h2>
-        <div class="row">
-            <div class="column">
-                <div class="chart-container">
-                    <canvas id="donationChart"></canvas>
+    <div class="uk-container">
+        <!-- Statistics -->
+        <div class="statistics">
+            <h2>Statistics</h2>
+            <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
+                <div>
+                    <div class="column uk-card uk-border-rounded" style="background-color: white; color: black;">
+                        <div class="uk-card-header" style="text-align: center;">
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-expand">
+                                    <h3 class="uk-card-title uk-margin-remove-bottom">Monetary Donation Graph</h3>
+                                    <p class="uk-text-meta uk-margin-remove-top">Typhoon Ulysses, 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-body chart-container">
+                            <canvas id="donationChart"></canvas>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="column">
-                <div class="chart-container">
-                    <canvas id="affectedPeopleChart"></canvas>
+                <div>
+                    <div class="column uk-card uk-border-rounded" style="background-color: white; color: black;">
+                        <div class="uk-card-header" style="text-align: center;">
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-expand">
+                                    <h3 class="uk-card-title uk-margin-remove-bottom">Affected People Graph</h3>
+                                    <p class="uk-text-meta uk-margin-remove-top">Typhoon Ulysses, 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-body chart-container">
+                            <canvas id="affectedPeopleChart"></canvas>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="column">
-                <div class="chart-container">
-                    <canvas id="recoveriesChart"></canvas>
+                <div>
+                    <div class="column uk-card uk-border-rounded" style="background-color: white; color: black;">
+                        <div class="uk-card-header" style="text-align: center;">
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-expand">
+                                    <h3 class="uk-card-title uk-margin-remove-bottom">Monetary Standby Funds</h3>
+                                    <p class="uk-text-meta uk-margin-remove-top">Typhoon Ulysses, 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-body chart-container">
+                            <canvas id="recoveriesChart"></canvas>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <br><br><br><br>
 @endsection
