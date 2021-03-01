@@ -35,28 +35,14 @@
                 </div>
             </div>
         </div>
-        <!-- /TOP CONTAINER -->
-        <!-- TOP IMAGE -->
-        <!-- <img src="Mimages/volunteers.jpg"> -->
-        <!-- /TOP IMAGE -->
         <div class="uk-position-bottom-center uk-position-medium uk-position-z-index uk-text-center" style="margin-top: 20px">
-        <a href="#whatWeDo" data-uk-scroll="duration: 500" data-uk-icon="icon: arrow-down; ratio: 2" class="uk-icon"><svg width="40" height="40" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><polygon points="10.5,16.08 5.63,10.66 6.37,10 10.5,14.58 14.63,10 15.37,10.66"></polygon><line fill="none" stroke="#000" x1="10.5" y1="4" x2="10.5" y2="15"></line></svg></a>
+            <a href="#whatWeDo" data-uk-scroll="duration: 500" data-uk-icon="icon: arrow-down; ratio: 2" class="uk-icon"><svg width="40" height="40" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><polygon points="10.5,16.08 5.63,10.66 6.37,10 10.5,14.58 14.63,10 15.37,10.66"></polygon><line fill="none" stroke="#000" x1="10.5" y1="4" x2="10.5" y2="15"></line></svg></a>
+        </div>   
     </div>
 </div>
    
 </div>
 <br>
-<!-- <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s" uk-grid style="margin-top: -120px; height: 600px; background-color: rgba(0,0,0,0.0);">
-    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-        <img src="images/volunteers.jpg" style="object-fit: fit;" alt="" uk-cover>
-    </div>
-    <div style="background-color: rgba(255,255,255,0.5); padding-top: 7%">
-        <div class="uk-card-body">
-            <h3 class="uk-card-title">Media Right</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-        </div>
-    </div>
-</div> -->
 <hr class="uk-divider-small uk-margin-large" style="text-align: center">
 <div class="uk-container">
     <!---WHAT WE DO-->
