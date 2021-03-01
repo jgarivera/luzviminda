@@ -22,13 +22,13 @@
                 <div class="uk-margin-small">
                     <div class="uk-inline uk-width-1-1">
                         <span class="uk-form-icon uk-form-icon-flip uk-icon" data-uk-icon="icon: user"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><circle fill="none" stroke="#000" stroke-width="1.1" cx="9.9" cy="6.4" r="4.4"></circle><path fill="none" stroke="#000" stroke-width="1.1" d="M1.5,19 C2.3,14.5 5.8,11.2 10,11.2 C14.2,11.2 17.7,14.6 18.5,19.2"></path></svg></span>
-                        <input style="background-color: rgba(0,0,0,0.2); border-color: white" class="uk-input uk-border-pill" required="" placeholder="Username" type="text">
+                        <input style="background-color: rgba(0,0,0,0.2); border-color: white; color:white" class="uk-input uk-border-pill" required="" placeholder="Username" type="text">
                     </div>
                 </div>
                 <div class="uk-margin-small">
                     <div class="uk-inline uk-width-1-1">
                         <span class="uk-form-icon uk-form-icon-flip uk-icon" data-uk-icon="icon: lock"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><rect fill="none" stroke="#000" height="10" width="13" y="8.5" x="3.5"></rect><path fill="none" stroke="#000" d="M6.5,8 L6.5,4.88 C6.5,3.01 8.07,1.5 10,1.5 C11.93,1.5 13.5,3.01 13.5,4.88 L13.5,8"></path></svg></span>
-                        <input style="background-color: rgba(0,0,0,0.2); border-color: white" class="uk-input uk-border-pill" required="" placeholder="Password" type="password">
+                        <input style="background-color: rgba(0,0,0,0.2); border-color: white; color:white" class="uk-input uk-border-pill" required="" placeholder="Password" type="password">
                     </div>
                 </div>
                 <div class="uk-margin-small">
@@ -45,16 +45,16 @@
         <form action="signup.php" method="post" class="uk-grid-small toggle-class" uk-grid hidden>
             <h1 class="uk-text-normal uk-text-secondary" style="margin: 0; color:white!important">Sign Up</h1>
             <div class="uk-width-1-1">
-                <input style="background-color: rgba(0,0,0,0.2); border-color: gray" class="uk-input uk-border-pill" name="email" type="email" placeholder="Email">
+                <input style="background-color: rgba(0,0,0,0.2); border-color: gray; color:white" class="uk-input uk-border-pill" name="email" type="email" placeholder="Email">
             </div>
             <div class="uk-width-1-1">
-                <input style="background-color: rgba(0,0,0,0.2); border-color: gray" class="uk-input uk-border-pill" name="username" type="text" placeholder="Username">
+                <input style="background-color: rgba(0,0,0,0.2); border-color: gray; color:white" class="uk-input uk-border-pill" name="username" type="text" placeholder="Username">
             </div>
             <div class="uk-width-1-1@s">
-                <input style="background-color: rgba(0,0,0,0.2); border-color: gray" class="uk-input uk-border-pill" name="password" type="password" placeholder="Password">
+                <input style="background-color: rgba(0,0,0,0.2); border-color: gray; color:white" class="uk-input uk-border-pill" name="password" type="password" placeholder="Password">
             </div>
             <div class="uk-width-1-2@s">
-                <select style="background-color: rgba(0,0,0,0.2); border-color: gray" required class="uk-border-pill uk-select">
+                <select style="background-color: rgba(0,0,0,0.2); border-color: gray; color:white" required class="uk-border-pill uk-select">
                     <option value="" disabled selected>Privacy</option>
                     <option>Public</option>
                     <option>Private</option>
@@ -62,7 +62,7 @@
                 </select>
             </div>
             <div class="uk-width-1-2@s">
-                <input style="background-color: rgba(0,0,0,0.2); border-color: gray" class="uk-input uk-border-pill" name="birthdate" type="date" placeholder="Birthdate">
+                <input style="background-color: rgba(0,0,0,0.2); border-color: gray; color:white    " class="uk-input uk-border-pill" name="birthdate" type="date" placeholder="Birthdate">
             </div>
             <div class="uk-margin-bottom uk-margin-top" style="margin: auto auto; text-align: center">
                 <button type="submit" class="uk-button uk-button-primary uk-border-pill uk-width-1-1" style="background-color: #48E74F;color:black">Sign Up</button>
