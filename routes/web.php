@@ -60,7 +60,7 @@ Route::get('/donation-confirm-jci-cebu-sinulog', function () {
 /** Login form Route */
 
 Route::get('/login', function () {
-    return view('pages.testforms');
+    return view('pages.login');
 })->name('login');
 
 

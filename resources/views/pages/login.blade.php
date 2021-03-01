@@ -17,7 +17,7 @@
             <h1 class="uk-text-normal uk-text-secondary" style="margin: 0; color: white!important; font: Montserrat">Log In</h1>
         </div>
         <!-- login -->
-        <form class="toggle-class" action="login-dark.html" style="">
+        <form class="toggle-class" action="{{ route('dashboard.index') }}" style="">
             <fieldset class="uk-fieldset">
                 <div class="uk-margin-small">
                     <div class="uk-inline uk-width-1-1">
