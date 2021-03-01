@@ -19,7 +19,7 @@
                         <h1 class="uk-scrollspy-inview uk-animation-slide-right-medium" style="">Resilient PH</h1>
                         <h6 class="uk-margin-remove-top uk-text-primary uk-margin-small-bottom uk-scrollspy-inview uk-animation-slide-right-medium">Vigilance. Understanding. Collaboration. Action.</h6>
                         <p class="subtitle-text uk-visible@s uk-scrollspy-inview uk-animation-slide-right-medium" style="color: white; text-align: justify">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.</p>
-                        <a href="#" title="Learn More" class="uk-button uk-button-primary uk-border-pill uk-scrollspy-inview uk-animation-fade" data-uk-scrollspy-class="uk-animation-fade" style="">LEARN MORE</a>
+                        <a href="{{ route('donation-form1-resilientph') }}" title="Learn More" class="uk-button uk-button-primary uk-border-pill uk-scrollspy-inview uk-animation-fade" data-uk-scrollspy-class="uk-animation-fade" style="">DONATE NOW</a>
                     </div>
                 </div>
                 <div style="margin: auto auto">

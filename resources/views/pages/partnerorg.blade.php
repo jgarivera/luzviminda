@@ -66,7 +66,7 @@
                         <p>Resilient.PH is a multi-platform social enterprise committed to advancing resilience programming across communities and institutions in the Philippines</p>
                     </div>
                     <div class="uk-card-footer">
-                        <a href="{{ route('org-profile') }}" class="uk-button uk-button-text">Visit Organization</a>
+                        <a href="{{ route('resilientPH') }}" class="uk-button uk-button-text">Visit Organization</a>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                         <p>ARISE - Philippines is a Local Network of ARISE (the Private Sector Alliance for Disaster Resilient Societies).<br><br></p>
                     </div>
                     <div class="uk-card-footer">
-                        <a href="{{ route('org-profile') }}" class="uk-button uk-button-text">Visit Organization</a>
+                        <a href="{{ route('resilientPH') }}" class="uk-button uk-button-text">Visit Organization</a>
                     </div>
                 </div>
             </div>
