@@ -6,7 +6,7 @@
     <!-- DataTables CDN -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-    <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.js" type="text/javascript" charset="utf8"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.23/r-2.2.7/datatables.min.js"></script>
 
     <script src="{{ asset('js/tables.js') }}" defer></script>
 @endsection
