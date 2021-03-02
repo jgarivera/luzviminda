@@ -8,4 +8,23 @@ $(document).ready(function() {
         focusTable.clear();
         focusTable.row.add(data).draw();
     } );
+
+    var focusChartCtx = document.getElementById('focusChart').getContext('2d');
+    var focusChart = new Chart(focusChartCtx, {
+        type: 'pie',
+        
+        data: {
+            labels: ["Donor", "Others"],
+            datasets: [
+                {
+                    label: "Donation (PHP)",
+                    backgroundColor: ["#ff0000", "#0000ff"],
+                    data: [69, 69]
+                }
+            ]
+        },
+        options: {
+            responsive: true
+        }
+    });
 } );
