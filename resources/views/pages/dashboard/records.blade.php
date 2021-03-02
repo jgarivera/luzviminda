@@ -14,18 +14,6 @@
 
 @section('body')
 
-<!-- search bar -->
-<div class="uk-card uk-card-secondary uk-card-body" style="z-index: 980;" uk-sticky="offset: 100; height: 50px;">
-    <div class="uk-margin">
-        <form class="uk-search uk-search-default" style="width: 1000px;">
-            <span uk-search-icon></span>
-            <input class="uk-search-input" type="search" placeholder="Search">
-        </form>
-        <button class="uk-button uk-button-primary uk-border-pill uk-text-capitalize" style="padding: 0px 10px 0px 10px;margin-top: 25px;float: right; margin-left: 10px;"><span uk-icon="icon: cog; ratio: 0.7"></span> Settings</button>
-        <button class="uk-button uk-button-primary uk-border-pill uk-text-capitalize" style="padding: 0px 10px 0px 10px;margin-top: 25px;float: right;"><span uk-icon="icon: list; ratio: 0.7"></span> Filter</button>
-    </div>                  
-</div>
-
 <div class="uk-border-rounded uk-text-center" uk-grid style="border-top: 25px solid  #f8b20c">
     <div class="uk-width-1-6 uk-visible@m">
         <div class="uk-card uk-card-default uk-card-body uk-height-1-1" style="padding-left: 0px; padding-right: 0px;">
