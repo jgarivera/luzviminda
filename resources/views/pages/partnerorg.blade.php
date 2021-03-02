@@ -25,17 +25,17 @@
                     <div class="uk-card-header">
                         <div class="uk-grid-small uk-flex-middle" uk-grid>
                             <div class="uk-width-auto">
-                                <img class="uk-border-circle" width="40" height="40" src="images/sample-logo.png">
+                                <img class="uk-border-circle" width="40" height="40" src="images/jci-logo-nobg.png">
                             </div>
                             <div class="uk-width-expand" style="text-align: left">
                                 <h3 class="uk-card-title uk-margin-remove-bottom">JCI Cebu Sinulog</h3>
                                 <!-- organization date established -->
-                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                                <p class="uk-text-meta uk-margin-remove-top">Cebu City, Philippines</p>
                             </div>
                         </div>
                     </div>
                     <div class="uk-card-media-top">
-                        <img src="images/helping-hand.jpeg" alt="">
+                        <img src="images/jci-cebu-header.jpg" alt="">
                     </div>
                     <div class="uk-card-body">
                         <p>The Junior Chamber International (JCI) is a global organization of young active citizens, purposely aimed to create positive change in local communities.<br></p>
@@ -50,17 +50,17 @@
                     <div class="uk-card-header">
                         <div class="uk-grid-small uk-flex-middle" uk-grid>
                             <div class="uk-width-auto">
-                                <img class="uk-border-circle" width="40" height="40" src="images/sample-logo.png">
+                                <img class="uk-border-circle" width="40" height="40" src="images/resilient.png">
                             </div>
                             <div class="uk-width-expand" style="text-align: left">
                                 <h3 class="uk-card-title uk-margin-remove-bottom">Resilient.PH</h3>
                                 <!-- organization date established -->
-                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                                <p class="uk-text-meta uk-margin-remove-top">Philippines</p>
                             </div>
                         </div>
                     </div>
                     <div class="uk-card-media-top">
-                        <img src="images/helping-hand.jpeg" alt="">
+                        <img src="images/donation.jpg" alt="">
                     </div>
                     <div class="uk-card-body">
                         <p>Resilient.PH is a multi-platform social enterprise committed to advancing resilience programming across communities and institutions in the Philippines</p>
@@ -75,17 +75,17 @@
                     <div class="uk-card-header">
                         <div class="uk-grid-small uk-flex-middle" uk-grid>
                             <div class="uk-width-auto">
-                                <img class="uk-border-circle" width="40" height="40" src="images/sample-logo.png">
+                                <img class="uk-border-circle" width="40" height="40" src="images/arise.png">
                             </div>
                             <div class="uk-width-expand" style="text-align: left">
                                 <h3 class="uk-card-title uk-margin-remove-bottom">ARISE Philippines</h3>
                                 <!-- organization date established -->
-                                <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                                <p class="uk-text-meta uk-margin-remove-top">Philippines</p>
                             </div>
                         </div>
                     </div>
                     <div class="uk-card-media-top">
-                        <img src="images/helping-hand.jpeg" alt="">
+                        <img src="images/arise-header.jpg" alt="">
                     </div>
                     <div class="uk-card-body">
                         <p>ARISE - Philippines is a Local Network of ARISE (the Private Sector Alliance for Disaster Resilient Societies).<br><br></p>
