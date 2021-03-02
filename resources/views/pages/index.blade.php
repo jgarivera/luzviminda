@@ -2,6 +2,7 @@
 
 @section('head')
     <title>Landing Page</title>
+    <link rel="icon" href="{{ asset('images/Luz-Logo_2.png') }}" type="image/icon type">
     
     <!-- Retrieve Mapbox library from CDN -->    
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css' rel='stylesheet' />

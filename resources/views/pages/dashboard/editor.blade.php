@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="{{ asset('css/resilient.css') }}">
     <link rel="stylesheet" href="{{ asset('css/dashboard/editor.css') }}">
     <title>JCI Cebu Sinulog</title>
+    <link rel="icon" href="{{ asset('images/Luz-Logo_2.png') }}" type="image/icon type">
 @endsection
 
 @section('body')

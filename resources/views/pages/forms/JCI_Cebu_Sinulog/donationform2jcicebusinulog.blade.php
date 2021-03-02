@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ asset('css/forms/donationforms.css') }}">
     <title>Donation Form</title>
+    <link rel="icon" href="{{ asset('images/Luz-Logo_2.png') }}" type="image/icon type">
 @endsection
 
 @section('body')

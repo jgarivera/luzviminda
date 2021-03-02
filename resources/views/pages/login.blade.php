@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="{{ asset('css/login.css') }}">
     
     <title>Login</title>
+    <link rel="icon" href="{{ asset('images/Luz-Logo_2.png') }}" type="image/icon type">
 @endsection
 
 @section('body')

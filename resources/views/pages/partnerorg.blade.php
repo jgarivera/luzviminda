@@ -3,7 +3,8 @@
 @section('head')
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <link rel="stylesheet" href="{{ asset('css/partnerorg.css') }}">
-    <title>Landing Page</title>
+    <title>Partner Organizations</title>
+    <link rel="icon" href="{{ asset('images/Luz-Logo_2.png') }}" type="image/icon type">
 @endsection
 
 @section('body')
