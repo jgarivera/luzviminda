@@ -8,59 +8,63 @@
 
 @section('body')
 
-<div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m" style="border-bottom: 3px solid #b47024;">
-<center><img src="{{ asset('images/jci-logo.jpg') }}" style="width:250px; border-radius: 50%;" /></center>
-    <h3 class="uk-card-title">You chose to donate to JCI Cebu Sinulog</h3>
+<div class="uk-container">
 
-    <center><div class="line" style="border-bottom: 3px solid #b47024;"> </div></center>
-
-    <form style="padding: 20px;">
-    <fieldset class="uk-fieldset">
-
-        <legend class="uk-legend">Please fill the form so we may acknowledge you properly</legend>
-
-        <div class="uk-margin">
-        
-        <label class="uk-form-label" for="form-horizontal-text">Donation Pledge:*</label>
-        <div class="uk-form-controls uk-form-controls-text">
-            <input class="uk-input" id="form-horizontal-text" type="text">
-        </div>
-
-        <label class="uk-form-label" for="form-horizontal-select">Purpose:</label>
-        <div class="uk-form-controls">
-            <select class="uk-select" id="form-horizontal-select">
-                <option>non-specific donation drive</option>
-                <option>Donation Drive 1</option>
-                <option>Donation Drive 2</option>
-            </select>
-        </div>
-
-        <label class="uk-form-label" for="form-horizontal-select">Money Transfer Type:*</label>
-        <div class="uk-form-controls">
-            <select class="uk-select" id="form-horizontal-select">
-                <option>-select-</option>
-                <option>Bank Transfer</option>
-                <option>Debit Payment</option>
-                <option>Money Order</option>
-                <option>Cheque</option>
-            </select>
-        </div>
-
-        <label class="uk-form-label" for="form-horizontal-select">Message to Organization:</label>
-            <textarea class="uk-textarea" rows="5" placeholder="Write message here"></textarea>
+    <div class="uk-card uk-card-secondary uk-card-body uk-width-1-2@m" style="border-bottom: 3px solid #b47024; margin: auto auto">
+    <center><img src="{{ asset('images/jci-logo.jpg') }}" style="width:250px; border-radius: 50%;" /></center>
+        <h3 class="uk-card-title">You chose to donate to JCI Cebu Sinulog</h3>
 
         <center><div class="line" style="border-bottom: 3px solid #b47024;"> </div></center>
 
-        <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
-            <label class="agreement"><input class="uk-checkbox" type="checkbox">  I permit LuzViMinda services and the organization of my choice to have access to the given information upon Agreement of Terms and Conditions.*</label>
-        </div>
+        <form style="padding: 20px;">
+        <fieldset class="uk-fieldset">
 
-        </div>
+            <legend class="uk-legend">Please fill the form so we may acknowledge you properly</legend>
 
-    </fieldset>
+            <div class="uk-margin">
+            
+            <label class="uk-form-label" for="form-horizontal-text">Donation Pledge:*</label>
+            <div class="uk-form-controls uk-form-controls-text">
+                <input class="uk-input" id="form-horizontal-text" type="text">
+            </div>
 
-    </form>
+            <label class="uk-form-label" for="form-horizontal-select">Purpose:</label>
+            <div class="uk-form-controls">
+                <select class="uk-select" id="form-horizontal-select">
+                    <option>non-specific donation drive</option>
+                    <option>Donation Drive 1</option>
+                    <option>Donation Drive 2</option>
+                </select>
+            </div>
 
-    <center><a href="{{ route('donation-confirm-jci-cebu-sinulog') }}" class="form-btns">Submit</a></center>
+            <label class="uk-form-label" for="form-horizontal-select">Money Transfer Type:*</label>
+            <div class="uk-form-controls">
+                <select class="uk-select" id="form-horizontal-select">
+                    <option>-select-</option>
+                    <option>Bank Transfer</option>
+                    <option>Debit Payment</option>
+                    <option>Money Order</option>
+                    <option>Cheque</option>
+                </select>
+            </div>
+
+            <label class="uk-form-label" for="form-horizontal-select">Message to Organization:</label>
+                <textarea class="uk-textarea" rows="5" placeholder="Write message here"></textarea>
+
+            <center><div class="line" style="border-bottom: 3px solid #b47024;"> </div></center>
+
+            <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                <label class="agreement"><input class="uk-checkbox" type="checkbox">  I permit LuzViMinda services and the organization of my choice to have access to the given information upon Agreement of Terms and Conditions.*</label>
+            </div>
+
+            </div>
+
+        </fieldset>
+
+        </form>
+
+        <center><a href="{{ route('donation-confirm-jci-cebu-sinulog') }}" class="form-btns">Submit</a></center>
+    </div>
 </div>
+<br><br><br>
 @endsection
