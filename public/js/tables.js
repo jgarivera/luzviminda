@@ -1,5 +1,3 @@
 $(document).ready(function() {
-    $('#donations').DataTable({
-        responsive: true
-    });
+    $('#donations').DataTable({ responsive: true });
 } );
