@@ -14,7 +14,7 @@
 
     <!-- Body section -->
     <body class="uk-height-viewport">
-        <nav class="nav uk-navbar" id="navbar" data-uk-navbar="">
+        <nav style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.0));" class="uk-navbar nav" data-uk-navbar="">
             <div class="uk-navbar-left">
                 <a class="uk-navbar-item uk-logo nav-link" href="{{ route('index') }}"><img class="nav-logo" src="{{ asset("images/Luz-Logo.png") }}" />LuzViMinda</a>
             </div>
