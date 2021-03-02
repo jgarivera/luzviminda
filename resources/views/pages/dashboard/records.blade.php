@@ -29,7 +29,7 @@
                 <td>Steven Da-Anton</td>
                 <td>Edinburgh</td>
                 <td>G-Cash</td>
-                <td>100.00</td>
+                <td>1000.00</td>
                 <td>In Progress</td>
             </tr>
         </tbody>
@@ -39,7 +39,7 @@
                 <td>Demeter Caubang</td>
                 <td>Edukasyon 101</td>
                 <td>Paymaya</td>
-                <td>500.00</td>
+                <td>5000.00</td>
                 <td>In Progress</td>
             </tr>
         </tbody>
@@ -49,7 +49,7 @@
                 <td>Yuca Beltran</td>
                 <td>Kalinisan Drive</td>
                 <td>Mastercard</td>
-                <td>3500.00</td>
+                <td>35000.00</td>
                 <td>Completed</td>
             </tr>
         </tbody>
@@ -59,7 +59,7 @@
                 <td>Aldwin Vergara</td>
                 <td>Faithful Youth</td>
                 <td>GCash</td>
-                <td>500.00</td>
+                <td>5000.00</td>
                 <td>Completed</td>
             </tr>
         </tbody>
@@ -70,6 +70,57 @@
                 <td>Tech Solution 101</td>
                 <td>VISA</td>
                 <td>30000.00</td>
+                <td>In Progress</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>6</td>
+                <td>Harold Hermoza</td>
+                <td>Edukasyon 101</td>
+                <td>Cash</td>
+                <td>5000.00</td>
+                <td>Completed</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>7</td>
+                <td>Jasffer Padigdig</td>
+                <td>Faithful Youth</td>
+                <td>GCash</td>
+                <td>30000.00</td>
+                <td>In Progress</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>8</td>
+                <td>Jed Tinio</td>
+                <td>Kabataan Sportsfest</td>
+                <td>Cash</td>
+                <td>5000.00</td>
+                <td>Completed</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>9</td>
+                <td>Clifford Austria</td>
+                <td>Kabataan Sportsfest</td>
+                <td>Cash</td>
+                <td>20000.00</td>
+                <td>Completed</td>
+            </tr>
+        </tbody>
+        
+        <tbody>
+            <tr>
+                <td>10</td>
+                <td>Khrystelle Harion</td>
+                <td>Women Empowerment</td>
+                <td>VISA</td>
+                <td>5000.00</td>
                 <td>In Progress</td>
             </tr>
         </tbody>
