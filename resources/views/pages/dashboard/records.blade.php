@@ -156,7 +156,7 @@
             </div>
             <div class="uk-grid-item-match uk-width-1-2">
                 <div class="uk-card uk-card-default uk-card-body uk-margin">
-                    <h3>Heading</h3>
+                    <h3>Highlighted Donor</h3>
                     <div class="uk-container" style="border: 1px solid black;">
                         <table id="focuses" class="display" style="width:100%">
                             <thead>
@@ -183,7 +183,7 @@
                     </div>
                 </div>
                 <div class="uk-card uk-card-default uk-card-body uk-margin">
-                    <h3>Heading</h3>
+                    <h3>Donor Ratio</h3>
                     <div class="uk-container uk-margin">
                         <canvas id="focusChart"></canvas>
                     </div>
