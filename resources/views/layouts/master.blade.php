@@ -24,10 +24,6 @@
                     <li><a class="nav-link" href="{{ route('index') }}">Home</a></li>
                     <li><a class="nav-link" href="{{ route('partner-orgs') }}">Partners</a></li>
                 </ul>
-                <!-- <div class="uk-navbar-item">
-                    <a class="uk-navbar-toggle uk-hidden@m uk-icon uk-navbar-toggle-icon" data-uk-toggle="" data-uk-navbar-toggle-icon="" href="#offcanvas-nav" aria-expanded="false"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><rect y="9" width="20" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="20" height="2"></rect></svg></a>
-                    <a href="#" class="uk-button uk-button-secondary uk-visible@m"><span data-uk-icon="sign-in" class="uk-icon"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><polygon points="7 2 17 2 17 17 7 17 7 16 16 16 16 3 7 3"></polygon><polygon points="9.1 13.4 8.5 12.8 11.28 10 4 10 4 9 11.28 9 8.5 6.2 9.1 5.62 13 9.5"></polygon></svg></span>SIGN UP</a>
-                </div> -->
             </div>
         </nav>
 
