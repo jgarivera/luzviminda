@@ -158,7 +158,28 @@
                 <div class="uk-card uk-card-default uk-card-body uk-margin">
                     <h3>Heading</h3>
                     <div class="uk-container" style="border: 1px solid black;">
-                        <!--table here-->
+                        <table id="focuses" class="display" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Donor</th>
+                                    <th>Drive</th>
+                                    <th>Payment Type</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Donor</th>
+                                    <th>Drive</th>
+                                    <th>Payment Type</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                </tr>
+                            </tfoot>
+                        </table>
                     </div>
                 </div>
                 <div class="uk-card uk-card-default uk-card-body uk-margin">
